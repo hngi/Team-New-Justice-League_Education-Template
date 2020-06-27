@@ -38,8 +38,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Header */
 header {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   background: var(--secondary-color);
 }
 
@@ -48,7 +48,7 @@ header nav .current {
 }
 
 header .navbar-dark .navbar-nav .nav-link {
-  color: #fff !important;
+  color: #333 !important;
 }
 
 header .nav-btn.btn-outline-light:hover {
