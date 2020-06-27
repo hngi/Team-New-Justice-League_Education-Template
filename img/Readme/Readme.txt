@@ -1,0 +1,1 @@
+All Images should be placed in this directory. Ensure to compress the images b4 use so the page can load fast.
