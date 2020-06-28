@@ -32,7 +32,6 @@ div#feedback:focus-within{
 
 p#error{
     color: red;
-    text-align: left;
     font-size: 0.8rem;
 }
 p.sign{
