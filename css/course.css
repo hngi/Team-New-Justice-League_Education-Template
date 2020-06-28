@@ -1,0 +1,95 @@
+:root {
+  --base-color: #1652f0;
+  --primary-color: #05b169;
+  --secondary-color: #ffcf40;
+  --font-stack: 'Poppins', sans-serif;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #05b169;
+  border-radius: 50%;
+  display: inline-block;
+}
+@media and screen (max-width) {
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-subtitle{
+    color: var(--base-color);
+}
+.checked {
+  color: orange;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+body {
+  font-family: var(--font-stack);
+  color: #000;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-stack);
+  font-weight: bold;
+  /* color: var(--base-color); */
+}
+
+.card{
+    width: 25%;
+}
+
+/* header */
+header {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  background: var(--secondary-color);
+}
+
+header nav .current {
+  border-bottom: 2px solid var(--primary-color);
+}
+
+header .navbar-dark .navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+header .nav-btn.btn-outline-light:hover {
+  color: var(--base-color) !important;
+}
+
+header nav .nav-item {
+  margin-right: 1rem;
+}
+
+header nav .btn.bg-primary {
+  padding-top: 0;
+  padding-bottom: 0;
+  background: var(--primary-color) !important;
+}
+
+header nav a:hover {
+  opacity: 0.8;
+}
+
+header .btn:hover {
+  opacity: 0.9 !important;
+}
+
+.lowerBody{
+    display: flex;
+    justify-content: space-between; 
+}
+
