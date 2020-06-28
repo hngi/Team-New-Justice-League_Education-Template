@@ -396,41 +396,41 @@ button.navbar-link-button2 {
 
 .form-input-outter-mobile input[placeholder="Graphic Design"] {
   padding-left: 40px;
-  font-style: Light;
+  font-style: normal;
+  font-weight: 300;
   font-size: 18px;
   line-height: 32px;
-  color: #333333;
+  color: #050f19;
   fill: solid;
 }
 
 #form-mobile .search-result-mobile {
   font-weight: 500;
-  font-size: 21px;
+  font-size: 13px;
   line-height: 31px;
-  margin-left: 11.5%;
+  margin-left: 8%;
   position: relative;
-  bottom: 5px;
+  bottom: 28px;
 }
 
 #form-mobile .search-mobile {
-  margin-top: 50px;
+  margin-top: -33px;
 }
 
 #form-mobile .result-found-mobile {
   font-weight: 500;
-  font-size: 21px;
+  font-size: 13px;
   line-height: 31px;
   position: relative;
-  right: 60px;
+  left: 34px;
 }
 
 #form-mobile .sort-mobile {
   font-weight: 500;
-  font-size: 21px;
+  font-size: 13px;
   line-height: 31px;
   position: relative;
   float: right;
-  left: 60px;
   border: none;
 }
 
@@ -438,56 +438,56 @@ button.navbar-link-button2 {
     height: 10px;
 } */
 
-.card {
+.card-mobile {
   position: relative;
-  right: 35px;
   border: 0.75px solid #e0e0e0;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   height: 486px;
-  margin-top: 56px;
-  margin-right: 37px;
+  width: 370px;
+  margin-top: 27px;
+  left: 50px;
 }
 
-.card-1 img {
+.card-1-mobile img {
   position: relative;
-  width: 380px;
+  width: 369px;
   height: 284px;
-  right: 16px;
+  right: 1px;
 }
 
-.card-text {
-  margin-left: 13px;
+.card-text-mobile {
+  margin: 8px 40px 0 40px;
 }
 
-.card-1 .card-text-p1 {
+.card-1-mobile .card-text-p1-mobile {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
   color: #050f19;
 }
 
-.card-text-inner {
+.card-text-inner-mobile {
   color: #1652f0;
   font-weight: 500;
   font-size: 13px;
   line-height: 18px;
 }
 
-.card-1 .card-text-p2 {
+.card-1-mobile .card-text-p2-mobile {
   font-weight: 600;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 200%;
-  margin-top: -10px;
+  margin-top: -12px;
   margin-bottom: 1.5px;
   letter-spacing: 0.105em;
   color: #1652f0;
 }
 
-.card-1 .card-text-p3 {
-  font-size: 14px;
+.card-1-mobile .card-text-p3-mobile {
+  font-size: 11.5px;
   line-height: 200%;
   /* or 28px */
   margin-bottom: 7px;
@@ -496,21 +496,22 @@ button.navbar-link-button2 {
 
 .fa-star {
   color: #ffcf40;
+  font-size: 11px;
   border-radius: 0.5px;
 }
 
-.fa-arrow-right {
+.fa-arrow-right-mobile {
   float: right;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 11px;
   line-height: 200%;
   /* identical to box height, or 28px */
   color: #1652f0;
 }
 
-.card-text-inner-i {
+.card-text-inner-i-mobile {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 11px;
   line-height: 200%;
   /* identical to box height, or 28px */
   color: #1652f0;
