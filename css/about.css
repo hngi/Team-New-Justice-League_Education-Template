@@ -86,7 +86,7 @@ header .btn:hover {
 
 .first-container {
     height: 411px;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/file-20190423-175539-1de29q2.jpg') no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/iStock-896458188_1.jpg') no-repeat;
     /* background-color: rgba(0, 0, 0, 0.51); */
     background-size: cover;
 }
