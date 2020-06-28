@@ -39,6 +39,12 @@
 .item-subtitle .item-title {
   width: 100%;
 }
+.fal{
+  background: #1652f0;
+  color: white;
+  padding: 5px;
+  font-size: 40px;
+}
 @media (min-width: 900px) {
   .line{
     display: flex;
