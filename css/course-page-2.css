@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+:root {
+    --main-font-color: #FFFFFF;
+    --secondary-font-color: #333333;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 190.5%;
+}
+/* Header */
+.container-fluid {
+    padding: 0 !important;
+}
+
+.navbar {
+    background: var(--main-font-color);
+    height: 84px;
+}
+
+.navbar a {
+    color: var(--secondary-font-color);
+}
+
+.navbar-nav {
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.61);
+}
+
+.signin, .getstarted {
+    border: 2px solid #05B169;
+    color: #05B169 !important;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 2px 0 2px 8px !important;
+    width: 25%;
+}
+
+.getstarted {
+    color: var(--main-font-color) !important;
+    background: #05B169;
+    padding: 5px 0 5px 8px !important;
+    width: 40%;
+}
+
+/* Hero Section */
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    padding: 0 !important;
+}
+
+.courses,
+.search-input {
+    position: absolute;
+    width: 228px;
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--main-font-color);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search-input {
+    color: var(--secondary-font-color) !important;
+    width: 300px !important;
+    top: 65% !important;
+}
+
+.search {
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    transform: translate(-80%, -35%);
+}
+
+.search-input::placeholder {
+    font-weight: 300;
+    font-size: 18.06px;
+    color: var(--secondary-font-color);
+    opacity: 0.67;
+    position: relative;
+    top: 31%;
+    left: 57%;
+    transform: translate(-43%, -69%);
+}
+
+/* Link Section */
+.link-section {
+    margin-top: 406px;
+    text-decoration: none;
+}
+
+.link-section a {
+    color: var(--secondary-font-color);
+}
+
+.all-link a {
+    color: #1652F0;
+}
+
+/* Courses */
+.brand-new-systems {
+    border: 0.361985px solid #E0E0E0;
+    box-sizing: border-box;
+    margin-bottom: 39px;
+}
+
+.courses-header {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #1652F0;
+}
+
+.courses-section {
+    margin-top: 48px;
+}
+
+.courses-subheader {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 19px;
+    color: #333333;
+    opacity: 0.67;
+}
+
+.dot {
+    margin-top: 7px;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background: var(--secondary-font-color);
+}
+
+.courses-text {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--secondary-font-color);
+    width: 251px;
+}
+
+.course-rating {
+    position: relative;
+    margin-top: 17px;
+    background: #E0E0E0;
+    height: 40px;
+}
+
+.rating {
+    color: var(--secondary-font-color);
+    opacity: 0.67;
+}
+
+.free {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-transform: uppercase;
+    background: #1652F0;
+    color: var(--main-font-color);
+    border-radius: 0;
+    width: 58px;
+}
+
+.charged {
+    background: #05B169;
+}
+
+.line {
+    opacity: 0.08;
+    border: 0.723971px solid #333333;
+}
+
+/* Navigator */
+.direction {
+    width: 44.53px;
+    height: 40.88px;
+    border: 0.364964px solid #E0E0E0;
+    border-radius: 2.91971px;
+}
+
+.navigator .active {
+    background: #05B169;
+    color: var(--main-font-color);
+}
+
+/* Footer */
+footer {
+    margin-top: 63px;
+    background: #1652F0;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 180%;
+    color: var(--main-font-color);
+}
+
+.info {
+    margin-top: 39px;
+}
+
+.social-icons {
+    margin-top: 14px;
+}
+
+.collaborate {
+    padding-left: 30px; 
+}
+
+.title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 165.19%;
+}
+
+.list a {
+    color: var(--main-font-color);
+    text-decoration: none;
+}
+
+.list ul {
+    list-style: none;
+    padding: 0;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 250%;
+}
+
+.list p {
+    margin-bottom: 0;
+}
+
+.input {
+    margin-top: 17px;
+    outline: 0;
+}
+
+.email-input {
+    height: 46px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 0.5px solid #E4E4E4;
+    width: 247px;
+}
+
+.send-icon {
+    height: 46px;
+    width: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #05B169;
+}
+
+.footer-line {
+    border: 0.75px solid #CAC7C7;
+    width: 300px;
+}
