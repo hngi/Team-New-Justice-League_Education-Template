@@ -1,0 +1,141 @@
+:root {
+  --base-color: #1652f0;
+  --primary-color: #05b169;
+  --secondary-color: #ffcf40;
+  --font-stack: 'Poppins', sans-serif;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #05b169;
+  border-radius: 50%;
+  display: inline-block;
+}
+.line{
+  margin: 40px auto 0 auto;
+  width: 100%;
+}
+.dharn{
+  flex-basis: 30%;
+  margin-bottom: 20px;
+  border: 1px #ccc solid;
+  border-radius: 3px;
+}
+.lowerBody{
+  width: 100%;
+
+}
+#l1{
+  flex-basis: 45%;
+  
+}
+#l2{
+  flex-basis: 35%;
+  
+}
+.item-body{
+  padding: 4px;
+}
+.item-subtitle .item-title {
+  width: 100%;
+}
+.fal{
+  background: #1652f0;
+  color: white;
+  padding: 5px;
+  font-size: 40px;
+}
+@media (min-width: 900px) {
+  .line{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .lowerBody{
+    display: flex;
+    justify-content: space-between;
+    width:80%; 
+  }
+}
+@media (max-width: 800px) {
+  .item {
+    width: 100%;
+  }
+  
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.item-subtitle{
+    color: var(--base-color);
+}
+.checked {
+  color: orange;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+body {
+  font-family: var(--font-stack);
+  color: #000;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-stack);
+  font-weight: bold;
+  /* color: var(--base-color); */
+}
+
+.item{
+    width: 25%;
+}
+
+/* header */
+header {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  background: var(--secondary-color);
+}
+
+header nav .current {
+  border-bottom: 2px solid var(--primary-color);
+}
+
+header .navbar-dark .navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+header .nav-btn.btn-outline-light:hover {
+  color: var(--base-color) !important;
+}
+
+header nav .nav-item {
+  margin-right: 1rem;
+}
+
+header nav .btn.bg-primary {
+  padding-top: 0;
+  padding-bottom: 0;
+  background: var(--primary-color) !important;
+}
+
+header nav a:hover {
+  opacity: 0.8;
+}
+
+header .btn:hover {
+  opacity: 0.9 !important;
+}
+
+
+
