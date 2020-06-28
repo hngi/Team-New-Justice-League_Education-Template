@@ -149,7 +149,11 @@ a:active {
 	float: left;
 	width: 86%;
 }
-
+@media screen and (max-width: 1196px) {
+	#support #formGroup {
+		display: none;
+	}
+}
 @media only screen and (max-width: 600px) {
 	.mt-md-4 {
 		margin-bottom: 550px;
@@ -157,6 +161,13 @@ a:active {
 	}
 	.faq-detail {
 		height: auto;
+	}
+	#support #formGroup {
+		display: block;
+		margin: 0 auto;
+	}
+	.sub-button {
+		width: 90%;
 	}
 	/* .mt-md-4 {
         margin-bottom: 5px;
