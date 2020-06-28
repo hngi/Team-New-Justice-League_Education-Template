@@ -1,1 +1,0 @@
-If you need to include a js file, the js file should be named with your-page-name.js
