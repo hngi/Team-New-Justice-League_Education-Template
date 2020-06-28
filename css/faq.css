@@ -65,11 +65,6 @@
         float: center;
     }
     
-    faq-topics {
-        background: red;
-        background-color: red;
-    }
-    
     li>h5 {
         color: #05B169;
     }
@@ -92,7 +87,7 @@
         background-color: #f2f5f3;
         margin-top: 28px;
         position: relative;
-        height: 920px;
+        min-height: 920px;
         /* padding-left: 50px; */
         padding: 50px;
     }
@@ -112,21 +107,21 @@
     .find-answer {
         position: relative;
         margin-top: -500px;
-        /* margin-top: 80px; */
+    }
+
+    .find-answer button {
+      margin-top: 5rem;
     }
     
     input[type=text],
     input[type=email] {
         border: #05B169 solid 1px;
-        /* height: 40px; */
         padding: 8px 7px;
-        width: 86%;
+        width: 90%;
     }
     
-    textarea {
+    .find-answer textarea {
         border: #05B169 solid 1px;
-        width: 86%;
-        float: left;
     }
     
     a:hover {
