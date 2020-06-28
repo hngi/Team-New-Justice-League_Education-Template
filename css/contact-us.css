@@ -1,0 +1,33 @@
+.contact-buttons>.btn:hover {
+  background-color: #28A745;
+  border-color: #93D3A1;
+  color: white;
+}
+header-text h1{
+  font-size:48px;
+}
+input {
+  width: 50%;
+}
+
+@media(max-width:600px) {
+  .container {
+    width: 90% !important
+  }
+  .header-text h1{
+    font-size:24px;
+  }
+  .header-text>p{
+    font-size:12px;
+  }
+  .contact-buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .feedback-section{
+    margin-top:0 !important;
+  }
+  .w-50 {
+    width: 100% !important;
+  }
+}
