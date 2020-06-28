@@ -1,168 +1,170 @@
-    body {
-        font-family: 'Poppins', sans-serif;
-    }
-    /* Color Palette */
-    
-    .original-blue {
-        color: #1652F0;
-    }
-    
-    .original-dark {
-        color: #050F19;
-    }
-    
-    .original-white {
-        color: #ffffff;
-    }
-    
-    .original-green {
-        color: #05B169;
-    }
-    
-    .original-yellow {
-        color: #FFCF40;
-    }
-    /* Typography */
-    
-    h1 {
-        font-size: 44.18px !important;
-        font-weight: bold !important;
-    }
-    
-    h2 {
-        font-size: 36px !important;
-        font-weight: bold !important;
-    }
-    
-    h3 {
-        font-size: 32px !important;
-        font-weight: bold !important;
-    }
-    
-    .jumbotron {
-        color: white;
-        background-image: url("/img/david-kennedy-4WnlU07YZ98-unsplash.png");
-        box-shadow: inset 0 0 0 1000px rgba(7, 23, 64, 0.6);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        /* margin-top: 25px; */
-        height: 420px;
-    }
-    
-    .jumbo-head {
-        margin-top: 30px;
-    }
-    
-    .jumbo-div {
-        margin-top: 50px;
-    }
-    
-    .jumbo-search {
-        /* margin-top: 20px; */
-        height: 50px;
-        border: #05B169 solid 1px;
-        float: center;
-    }
-    
-    li>h5 {
-        color: #05B169;
-    }
-    
-    .faq-detail>h4 {
-        color: #05B169;
-    }
-    
-    li>p {
-        color: #050F19;
-    }
-    
-    ul>li.borderless {
-        border: 0 none;
-        background-color: #f2f5f3;
-        margin: 5px;
-    }
-    
-    .faq-detail {
-        background-color: #f2f5f3;
-        margin-top: 28px;
-        position: relative;
-        min-height: 920px;
-        /* padding-left: 50px; */
-        padding: 50px;
-    }
-    /* .mt-md-4 {
+body {
+	font-family: 'Poppins', sans-serif;
+}
+/* Color Palette */
+
+.original-blue {
+	color: #1652f0;
+}
+
+.original-dark {
+	color: #050f19;
+}
+
+.original-white {
+	color: #ffffff;
+}
+
+.original-green {
+	color: #05b169;
+}
+
+.original-yellow {
+	color: #ffcf40;
+}
+/* Typography */
+
+h1 {
+	font-size: 44.18px !important;
+	font-weight: bold !important;
+}
+
+h2 {
+	font-size: 36px !important;
+	font-weight: bold !important;
+}
+
+h3 {
+	font-size: 32px !important;
+	font-weight: bold !important;
+}
+
+.jumbotron {
+	color: white;
+	background-image: url("/img/david-kennedy-4WnlU07YZ98-unsplash.png");
+	box-shadow: inset 0 0 0 1000px rgba(7, 23, 64, 0.6);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* margin-top: 25px; */
+	height: 420px;
+}
+
+.jumbo-head {
+	margin-top: 30px;
+}
+
+.jumbo-div {
+	margin-top: 50px;
+}
+
+.jumbo-search {
+	/* margin-top: 20px; */
+	height: 50px;
+	border: #05b169 solid 1px;
+	float: center;
+}
+
+li > h5 {
+	color: #05b169;
+}
+
+.faq-detail > h4 {
+	color: #05b169;
+}
+
+li > p {
+	color: #050f19;
+}
+
+ul > li.borderless {
+	border: 0 none;
+	background-color: #f2f5f3;
+	margin: 5px;
+}
+
+.faq-detail {
+	background-color: #f2f5f3;
+	margin-top: 28px;
+	position: relative;
+	min-height: 920px;
+	/* padding-left: 50px; */
+	padding: 50px;
+}
+/* .mt-md-4 {
         margin-bottom: 550px;
     } */
-    
-    span>h4 {
-        color: #05B169;
-    }
-    
-    span>p {
-        /* margin-top: 16px; */
-        line-height: 30px;
-    }
-    
-    .find-answer {
-        position: relative;
-        margin-top: -500px;
-    }
 
-    .find-answer button {
-      margin-top: 5rem;
-    }
-    
-    input[type=text],
-    input[type=email] {
-        border: #05B169 solid 1px;
-        padding: 8px 7px;
-        width: 90%;
-    }
-    
-    .find-answer textarea {
-        border: #05B169 solid 1px;
-    }
-    
-    a:hover {
-        color: #FFCF40 !important;
-    }
-    
-    a:visited,
-    a:link,
-    a:active {
-        text-decoration: none;
-        color: #05B169;
-    }
-    /* .contact-form {
+span > h4 {
+	color: #05b169;
+}
+
+span > p {
+	/* margin-top: 16px; */
+	line-height: 30px;
+}
+
+.find-answer {
+	position: relative;
+	margin-top: -500px;
+}
+
+.find-answer button {
+	margin-top: 5rem;
+}
+
+input[type=text],
+input[type=email] {
+	border: #05b169 solid 1px;
+	padding: 8px 7px;
+	width: 90%;
+}
+
+.find-answer textarea {
+	border: #05b169 solid 1px;
+}
+
+a:hover {
+	color: #ffcf40 !important;
+}
+
+a:visited,
+a:link,
+a:active {
+	text-decoration: none;
+	color: #05b169;
+}
+/* .contact-form {
     background-color: #f2f5f3;
     height: auto;
 } */
-    
-    .sub-button {
-        background-color: #05B169;
-        margin-top: 10px;
-        color: #ffffff;
-        font-weight: bolder;
-        float: left;
-        width: 86%;
-    }
-    
-    @media only screen and (max-width: 600px) {
-        .mt-md-4 {
-            margin-bottom: 550px;
-            /* height: /; */
-        }
-        .faq-detail {
-            height: auto;
-        }
-        /* .mt-md-4 {
+.form-control-lg {
+	padding: 0;
+}
+.sub-button {
+	background-color: #05b169;
+	margin-top: 10px;
+	color: #ffffff;
+	font-weight: bolder;
+	float: left;
+	width: 86%;
+}
+
+@media only screen and (max-width: 600px) {
+	.mt-md-4 {
+		margin-bottom: 550px;
+		/* height: /; */
+	}
+	.faq-detail {
+		height: auto;
+	}
+	/* .mt-md-4 {
         margin-bottom: 5px;
         margin-top: -1200px;
     } */
-        .find-answer {
-            position: relative;
-            margin-top: -500px;
-            /* margin-top: 1800px; */
-        }
-    }
+	.find-answer {
+		position: relative;
+		margin-top: -500px;
+		/* margin-top: 1800px; */
+	}
+}
