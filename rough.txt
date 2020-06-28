@@ -1,0 +1,117 @@
+<footer class="page-footer font-small">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row row-cols-md-5 row-cols-sm-12 row-cols-md-12 row-col-md-6 pt-5">
+
+        <!-- Grid column -->
+        <div class="">
+          <img src="img/Frame 6.png" alt="">
+          <p class="mt-sm-4">Suri academy is the best way to start New tech career path with the best set of instructors and experts</p>
+          <div class="social-icons d-flex">
+            <img src="img/facebook.png" alt="" width="30" height="30" >
+            <img src="img/youtube.png" alt="" width="30" height="30" class="mx-3">
+            <img src="img/twitter.png" alt="" width="30" height="30">
+          </div>
+        </div>
+
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="">
+          <h5 class="font-weight-bold  mt-3 mb-4 text-white">Collaborate</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-white mb-sm-3">Our partners</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white mb-sm-3">Donate Now</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white mb-sm-3">Becoming an instructor</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white mb-sm-3">Our Goals</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="">
+
+          <h5 class="font-weight-bold mt-3 mb-4 text-white">Navigation</h5>
+
+          <ul class="list-unstyled ">
+            <li>
+              <a href="#!" class="text-white">About us</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white pt-5">Courses</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Blog</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">FAQ</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Testimonials</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="span2">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold mt-3 mb-4 text-white">Contact Us</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-white">No 10, Lekki Phase 1 Lagos state Nigeria</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">+234 818 0877 482</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">info@suriacademy</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class=>
+        <h5 class="font-weight-bold mt-3 mb-4 text-white">Newsletter</h5>
+        <p>Subscribe to our newsletter to get latest deals on our courses</p>
+        <div class="input-group col-12 mb-5">
+          <input type="text" class="form-control border-right-0" placeholder="Your Email address">
+          <div class="input-group-append">
+            <span class="input-group-text bg-success"><img src="img/paper-plane.png" width="10" height="20"></span>
+          </div>
+          </div>        
+        </div>
+        <!-- Grid column -->
+
+      <!-- </div>
+      <!-- Grid row -->
+
+      <hr class="border border-white" >
+
+    </div> -->
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <!-- <div class="footer-copyright text-center py-3">© Suri A.Inc. 2020. All rights reserved.</div> -->
+    <!-- Copyright -->
+
+  </footer>
+Footer -->
