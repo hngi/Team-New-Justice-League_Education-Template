@@ -84,7 +84,7 @@ border: 1px solid #a1afbd;
 }
 @media screen and (max-width: 517px) {
     .card {
-        max-width: 16rem;
+        max-width: 14rem;
         margin: 0 auto !important;
         margin-bottom: 4% !important;
     }
