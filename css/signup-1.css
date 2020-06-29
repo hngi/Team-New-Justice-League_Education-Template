@@ -7,13 +7,13 @@ body{
 
 .my-container{
 	background-color: #F2F6FF;;
-	height: 1025px;
+	height: 2000px;
 	width: 100%;
 	padding: 0px 0px;	
 }
 
 .row {
-    display: flex;
+	flex-direction: column;
 }
 
 
@@ -26,16 +26,17 @@ body{
 	-o-background-size: cover;
 	background-size: cover;
 	position: absolute;
-	width: 659px;
+	/* width: 659px; */
+	width: 100%;
 	height: 1025px;
 	left:0px;
-	
 }
 
 .my-section2{
 	background: #F2F6FF;
 	position: absolute;
-	width: 781px;
+	/* width: 781px; */
+	width: 100%;
 	height: 1025px;
 	left: 659px;
 	padding: 80px 100px 30px 100px;
@@ -70,67 +71,63 @@ body{
 	right: 130px;
 }
 
-/* footer */
-/* footer{
-	background-color: #1652f0;
-	height:auto;
-	color: white;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* MEDIA QUERIES & RESPONSIVENESS */
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 375px) {
+
+  @media only screen and (max-width: 768px) {
 	.my-section1{
-		height: 300px;
-	}
+		  width: 100%;
+	  }
 	.my-section2{
-		left: 0px;
-		top: 400px;
+		left: 390px;
+		top: 150px;
 		padding: 10px 20px 10px 20px;
-		align-items: center;
+		width: 100%;
 	}
 	.google-img{
 		position: relative;
 		right: 60px;
-	}
+	} 
   }
 
-/* Medium devices (laptops/tablets, 992px and up) */
-	
-  @media only screen and (max-width: 685px) {
-	  .my-container{
-		  width: 100%;
-	  }
-	.my-section2{
-		left: 0px;
-		padding: 10px 20px 10px 20px;
-	}
-}
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 1024px) {
-	.my-section2{
-		left: 500px;
-		padding: 10px 20px 10px 20px;
-		
+  @media only screen and (max-width: 992px) {
+	.row{
+		flex-direction:row;
 	}
-}
+	.my-section1{
+		height: 400px;
+	}
+	.my-section2{
+		width: 100%;
+		left: 0px;
+		top: 450px;
+		padding: 10px 20px 10px 20px;
+	}
+	.google-img{
+		position: relative;
+		right: 60px;
+	} 
+  }
+
+
+  @media only screen and (max-width: 1200px) {
+	.row{
+		flex-direction:row;
+	}
+	.my-section1{
+		height: 400px;
+	} 
+	.my-section2{
+		width: 100%;
+		/* height: 1000px; */
+		left: 0px;
+		top: 450px;
+		padding: 10px 20px 10px 20px;
+	}
+	.google-img{
+		position: relative;
+		right: 60px;
+	} 
+  }
