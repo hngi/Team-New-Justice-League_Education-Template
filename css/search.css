@@ -285,13 +285,14 @@ button.navbar-link-button2 {
   position: relative;
   width: 99px;
   height: 32.41px;
-  left: 30px;
+  left: 10px;
   top: 12.96px;
 }
 
 #navbar-mobile button {
   position: relative;
   top: 10.83px;
+  right: 10px;
   border: none;
 }
 
@@ -364,7 +365,7 @@ button.navbar-link-button2 {
   position: relative;
   width: 315px;
   height: 38px;
-  left: 30px;
+  left: 10px;
   bottom: 28px;
   background: #ffffff;
   border: 1px solid #1652f0;
@@ -378,13 +379,13 @@ button.navbar-link-button2 {
   font-size: 18px;
   position: relative;
   bottom: 55.43px;
-  left: 43px;
+  left: 23px;
 }
 
 .fa-times-circle-mobile {
   position: relative;
   bottom: 57px;
-  margin-left: -605px;
+  margin-left: -625px;
   font-family: "Quantico", sans-serif;
   font-style: normal;
   font-size: 20px;
@@ -408,7 +409,7 @@ button.navbar-link-button2 {
   font-weight: 500;
   font-size: 13px;
   line-height: 31px;
-  margin-left: 8%;
+  margin-left: 3.5%;
   position: relative;
   bottom: 28px;
 }
@@ -422,7 +423,7 @@ button.navbar-link-button2 {
   font-size: 13px;
   line-height: 31px;
   position: relative;
-  left: 28px;
+  left: 13px;
 }
 
 #form-mobile .sort-mobile {
@@ -432,6 +433,7 @@ button.navbar-link-button2 {
   position: relative;
   float: right;
   border: none;
+  right: 20px;
 }
 
 /* #cards {
@@ -446,7 +448,7 @@ button.navbar-link-button2 {
   height: 494px;
   width: 325px;
   margin-top: 27px;
-  left: 40px;
+  left: 20px;
 }
 
 .card-1-mobile img {
