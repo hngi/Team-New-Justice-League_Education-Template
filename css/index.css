@@ -26,6 +26,10 @@
     height: 414px;
 }
 
+.popular-row {
+    padding: 3rem;
+}
+
 .popular-courses p {
     font-weight: 500;
     font-size: 1.5rem;
@@ -43,8 +47,10 @@
     border: 2px solid #1652F0;
 }
 
-.popular-card img {
+.sun-img {
     margin-left: 1.5rem;
+    height: 89px;
+    width: 89px;
 }
 
 .card-title {
@@ -66,6 +72,10 @@
     padding: 1.2rem 4rem;
     margin-bottom: 3rem;
     font-weight: bold;
+}
+
+.most-popular-row {
+    padding: 3rem;
 }
 
 .most-popular p {
@@ -118,10 +128,7 @@
 .about {
     margin-top: 4rem;
     margin-right: 0;
-}
-
-.special {
-    padding-right: 0 !important;
+    padding-left: 3rem;
 }
 
 .about-intro {
@@ -143,25 +150,239 @@
 
 .about ul {
     list-style: none;
-    margin: 0;
+}
+
+.about li {
+    margin-top: -1rem;
+}
+
+.about-last-img {
+    margin-top: 2rem;
 }
 
 .about ul li::before {
-    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #05B169; /* Change the color */
+    content: "\2022";  
+    color: #05B169; 
     font-size: 2rem;
-    font-weight: bold; /* If you want it to be bold */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
     margin: 0;
+    vertical-align: middle;
 }
 
 .about a {
     color: #333;
-    margin: 0;
+    vertical-align: middle;
+    font-size: 1.125rem;
+}
+
+.about button {
+    background: #05B169;
+    padding: 1.3rem 5rem;
 }
 
 .core-partners h2{
     margin: 5rem 0 2rem 0;
     font-size: 2.625rem;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .cover-row h1 {
+        font-size: 2.4rem;
+        color: black;
+        line-height: 3.5rem;
+    }
+
+    .cover-row p {
+        font-size: 1.3rem;
+        color: #333;
+        line-height: 2.3rem;
+    }
+
+    .about-intro {
+        font-size: 1.5rem;
+        color: black;
+    }
+    
+    .about h3 {
+        font-size: 2rem;
+        color: #1652F0;
+        line-height: 2.5rem;
+    }
+    
+    .about-sub {
+        font-size: 1.125rem;
+        color: #333;
+        line-height: 2rem;
+    }
+    
+    .about ul {
+        list-style: none;
+    }
+    
+    .about li {
+        margin-top: -1rem;
+    }
+    
+    .about-last-img {
+        margin-top: 2rem;
+    }
+    
+    .about ul li::before {
+        content: "\2022";  
+        color: #05B169; 
+        font-size: 2rem;
+        font-weight: bold; 
+        display: inline-block; 
+        width: 1em; 
+        margin: 0;
+        vertical-align: middle;
+    }
+    
+    .about a {
+        color: #333;
+        vertical-align: middle;
+        font-size: 1.125rem;
+    }
+    
+    .about button {
+        background: #05B169;
+        padding: 1.3rem 5rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .cover {
+        padding: 3rem 3rem 1.5rem 3rem;
+    }
+
+    .cover-row h1 {
+        font-size: 1.375rem;
+        color: black;
+        line-height: 156%;
+    }
+
+    .cover-row p {
+        font-size: 0.75rem;
+        color: #333;
+        line-height: 193%;
+    }
+
+    .cover-row button {
+        background-color: #1652F0;
+        padding-right: 5.5rem;
+        padding-left: 5.5rem;
+        font-weight: bold;
+    }
+
+    .popular-row {
+        padding: 0 2rem;
+    }
+
+    .popular-card {
+        padding-top: 2.3rem;
+        padding-left: 1rem;
+        border-radius: 0rem;
+        border: 2px solid #1652F0;
+    }
+
+    .card-title {
+        font-size: 1.125rem !important;
+    }
+
+    .card-text {
+        font-size: 0.8125rem !important;
+        line-height: 180% !important;
+    }
+
+    .sun-img {
+        margin-left: 1rem;
+        height: 64px;
+        width: 64px;
+    }
+
+    .popular-courses p {
+        font-weight: 500;
+        font-size: 1rem;
+        margin-bottom: 0.3125rem;
+    }
+    
+    .popular-courses h2 {
+        font-weight: 600;
+        font-size: 1.5rem;
+        padding: 0 3rem;
+        line-height: 2.65rem;
+    }
+
+    .find-more-btn {
+        margin-bottom: 1.8rem;
+    }
+
+    .most-popular p {
+        font-size: 1rem;
+    }
+    
+    .most-popular h2 {
+        font-size: 1.5rem;
+        padding: 0 6rem;
+        margin-bottom: 0.625rem;
+    }
+
+    .most-popular-row {
+        padding: 0 2rem;
+    }
+
+    .about {
+        margin-top: 0;
+        margin-right: 0;
+        padding-left: 0;
+    }
+    
+    .about-intro {
+        font-size: 0.875rem;
+        color: black;
+        margin-bottom: 0.5rem;
+    }
+    
+    .about h3 {
+        font-size: 1.375rem;
+        line-height: 2.0625rem;
+        padding: 0 1.5rem;
+    }
+    
+    .about-sub {
+        font-size: 0.875rem;
+        line-height: 190.05%;
+        padding: 0 1.5rem;
+    }
+    
+    .about ul {
+        list-style: none;
+        text-align: start;
+        margin-left: 3.7rem;
+    }
+    
+    .about a {
+        font-size: 0.875rem;
+    }
+    
+    .about button {
+        background: #05B169;
+        padding: 1rem 5.5rem;
+        border-radius: 0.5rem;
+        margin-top: -0.7rem;
+    }
+
+    .about-last-img {
+        width: 294px;
+        height: 291px;
+        margin-top: 1.4rem;
+    }
+
+    .core-partners h2{
+        margin: 2.7rem 0 1rem 0;
+        font-size: 1.125rem;
+    }
 }
