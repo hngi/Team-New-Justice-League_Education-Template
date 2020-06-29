@@ -57,7 +57,7 @@ header .nav-btn.btn-outline-light:hover {
   color: var(--base-color) !important;
 }
 
-header nav .nav-dharn {
+header nav .nav-item {
   margin-right: 1rem;
 }
 
@@ -79,7 +79,6 @@ header .btn:hover {
 /* Footer */
 footer p{
   color: white !important;
-  font-size: 0.7rem;
   display: block;
   line-height: 200.5%;
   font-weight: 300;
@@ -87,7 +86,6 @@ footer p{
 }
 footer a{
 color: white !important;
-font-size: 0.7rem;
 display: block;
 line-height: 270%;
 font-weight: 300;
@@ -103,9 +101,9 @@ footer p.head{
   font-weight: 500;
   font-size: 0.8rem;
 }
-a{
+/* a{
   font-size: 0.9rem;
-}
+} */
 
 footer{
   background-color: var(--base-color) !important;
@@ -121,4 +119,19 @@ footer{
 .logo img:hover{
   width: 35px;
   height: 35px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  header nav .btn {
+    margin-top: 1rem;
+  }
+
+  footer p {
+    font-size: 0.7rem;
+  }
+
+  footer a {
+    font-size: 0.7rem;
+  }
 }
