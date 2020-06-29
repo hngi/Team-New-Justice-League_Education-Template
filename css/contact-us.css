@@ -23,6 +23,9 @@ input {
   .navbar .navbar-brand {
     font-size: 30px;
   }
+  img.img-fluid {
+    max-width: 70%;
+  }
   .contact-buttons {
     display: grid;
     grid-template-columns: auto auto;

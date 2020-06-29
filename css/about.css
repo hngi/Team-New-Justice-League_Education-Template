@@ -210,7 +210,9 @@ img.photo-size {
   .navbar .navbar-brand {
     font-size: 30px;
   }
-
+  img.img-fluid {
+    max-width: 70%;
+  }
   .gren {
     margin-left: 40px;
   }
@@ -228,6 +230,7 @@ img.photo-size {
     width: 332.44px;
     height: 201.86px;
   }
+
   .pic-con {
     margin-top: 0px;
     padding-top: 95px;

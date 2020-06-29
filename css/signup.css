@@ -21,7 +21,7 @@ body {
 /* Shaydee, please work on the image in this div called ".my-section1" */
 
 .my-section1 {
-  background: url(../img/Rectangle\2png) #c4c4c4 no-repeat center center;
+  background: url(../img/rectangle\2png) #c4c4c4 no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -92,6 +92,12 @@ body {
     position: relative;
     right: 60px;
   }
+  .navbar .navbar-brand {
+    font-size: 30px;
+  }
+  img.img-fluid {
+    max-width: 70%;
+  }
 }
 
 /* Medium devices (laptops/tablets, 992px and up) */
@@ -103,6 +109,12 @@ body {
   .my-section2 {
     left: 0px;
     padding: 10px 20px 10px 20px;
+  }
+  .navbar .navbar-brand {
+    font-size: 30px;
+  }
+  img.img-fluid {
+    max-width: 70%;
   }
 }
 

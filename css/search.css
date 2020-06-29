@@ -28,7 +28,9 @@ body {
   top: 27px;
   bottom: 40px;
 }
-
+img.img-fluid {
+  max-width: 70%;
+}
 .navbar-link-home {
   right: 33%;
 }

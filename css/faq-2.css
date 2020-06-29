@@ -108,4 +108,7 @@ body {
   .navbar .navbar-brand {
     font-size: 30px;
   }
+  img.img-fluid {
+    max-width: 70%;
+  }
 }

@@ -28,7 +28,9 @@
 .navbar .navbar-brand {
   font-size: 30px;
 }
-
+img.img-fluid {
+  max-width: 70%;
+}
 .popular-row {
   padding: 3rem;
 }
