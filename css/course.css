@@ -2,7 +2,7 @@
   --base-color: #1652f0;
   --primary-color: #05b169;
   --secondary-color: #ffcf40;
-  --font-stack: 'Poppins', sans-serif;
+  --font-stack: "Poppins", sans-serif;
 }
 .dot {
   height: 15px;
@@ -11,57 +11,55 @@
   border-radius: 50%;
   display: inline-block;
 }
-.line{
+.line {
   margin: 40px auto 0 auto;
   width: 100%;
 }
-.dharn{
+.dharn {
   flex-basis: 30%;
   margin-bottom: 20px;
   border: 1px #ccc solid;
   border-radius: 3px;
 }
-.lowerBody{
+.lowerBody {
   width: 100%;
-
 }
-#l1{
+#l1 {
   flex-basis: 45%;
-  
 }
-#l2{
+#l2 {
   flex-basis: 35%;
-  
 }
-.item-body{
+.item-body {
   padding: 4px;
 }
 .item-subtitle .item-title {
   width: 100%;
 }
-.fal{
+.fal {
   background: #1652f0;
   color: white;
   padding: 5px;
   font-size: 40px;
 }
 @media (min-width: 900px) {
-  .line{
+  .line {
     display: flex;
     justify-content: space-between;
-    
   }
-  .lowerBody{
+  .lowerBody {
     display: flex;
     justify-content: space-between;
-    width:80%; 
+    width: 80%;
   }
 }
 @media (max-width: 800px) {
   .item {
     width: 100%;
   }
-  
+  .navbar .navbar-brand {
+    font-size: 30px;
+  }
 }
 * {
   margin: 0;
@@ -69,8 +67,8 @@
   box-sizing: border-box;
 }
 
-.item-subtitle{
-    color: var(--base-color);
+.item-subtitle {
+  color: var(--base-color);
 }
 .checked {
   color: orange;
@@ -90,14 +88,19 @@ body {
   font-family: var(--font-stack);
   color: #000;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-stack);
   font-weight: bold;
   /* color: var(--base-color); */
 }
 
-.item{
-    width: 25%;
+.item {
+  width: 25%;
 }
 
 /* header */
@@ -136,6 +139,3 @@ header nav a:hover {
 header .btn:hover {
   opacity: 0.9 !important;
 }
-
-
-

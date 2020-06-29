@@ -1,388 +1,390 @@
-.cover{
-    padding: 4rem;
+.cover {
+  padding: 4rem;
 }
 
 .cover-row h1 {
-    font-size: 3rem;
-    color: black;
-    line-height: 4.2rem;
+  font-size: 3rem;
+  color: black;
+  line-height: 4.2rem;
 }
 
 .cover-row p {
-    font-size: 1.5rem;
-    color: #333;
-    line-height: 2.5rem;
+  font-size: 1.5rem;
+  color: #333;
+  line-height: 2.5rem;
 }
 
 .cover-row button {
-    background-color: #1652F0;
-    padding-right: 6.5rem;
-    padding-left: 6.5rem;
-    font-weight: bold;
+  background-color: #1652f0;
+  padding-right: 6.5rem;
+  padding-left: 6.5rem;
+  font-weight: bold;
 }
 
-.cover-row img{
-    width: 635px;
-    height: 414px;
+.cover-row img {
+  width: 635px;
+  height: 414px;
+}
+.navbar .navbar-brand {
+  font-size: 30px;
 }
 
 .popular-row {
-    padding: 3rem;
+  padding: 3rem;
 }
 
 .popular-courses p {
-    font-weight: 500;
-    font-size: 1.5rem;
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 
 .popular-courses h2 {
-    font-weight: 600;
-    font-size: 2.625rem;
+  font-weight: 600;
+  font-size: 2.625rem;
 }
 
 .popular-card {
-    padding-top: 3.3rem;
-    padding-left: 1rem;
-    border-radius: 0rem;
-    border: 2px solid #1652F0;
+  padding-top: 3.3rem;
+  padding-left: 1rem;
+  border-radius: 0rem;
+  border: 2px solid #1652f0;
 }
 
 .sun-img {
-    margin-left: 1.5rem;
-    height: 89px;
-    width: 89px;
+  margin-left: 1.5rem;
+  height: 89px;
+  width: 89px;
 }
 
 .card-title {
-    font-size: 1.5rem !important;
-    font-weight: 500 !important;
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
 }
 
 .card-text {
-    font-size: 1.125rem !important;
-    color: #333;
-    line-height: 2rem;
+  font-size: 1.125rem !important;
+  color: #333;
+  line-height: 2rem;
 }
 
 .card a {
-    color: #1652F0;
+  color: #1652f0;
 }
 
 .find-more-btn {
-    padding: 1.2rem 4rem;
-    margin-bottom: 3rem;
-    font-weight: bold;
+  padding: 1.2rem 4rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
 }
 
 .most-popular-row {
-    padding: 3rem;
+  padding: 3rem;
 }
 
 .most-popular p {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .most-popular h2 {
-    font-size: 2.625rem;
+  font-size: 2.625rem;
 }
 
 .most-popular-card {
-    border-radius: 0rem;
-    border: 0.75px solid #E0E0E0;
+  border-radius: 0rem;
+  border: 0.75px solid #e0e0e0;
 }
 
 .most-popular-card h5 {
-    font-size: 1.25rem !important;
-    font-weight: 600 !important;
-    color: #050F19;
-    line-height: 1.875rem;
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  color: #050f19;
+  line-height: 1.875rem;
 }
 
 .most-popular-card h6 {
-    font-size: 0.75rem !important;
-    font-weight: 600 !important;
-    color: #1652F0;
-    letter-spacing: 0.105em;
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+  color: #1652f0;
+  letter-spacing: 0.105em;
 }
 
-.most-popular-card  P {
-    font-size: 0.875rem !important;
-    color: #333;
-    line-height: 1.9rem;
+.most-popular-card P {
+  font-size: 0.875rem !important;
+  color: #333;
+  line-height: 1.9rem;
 }
 
 .rate-link {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .most-popular-card a {
-    color: #1652F0;
-    font-size: 13px;
-    font-weight: 600;
+  color: #1652f0;
+  font-size: 13px;
+  font-weight: 600;
 }
 
 .mp-card {
-    padding: 1rem 2rem;
+  padding: 1rem 2rem;
 }
 
 .about {
-    margin-top: 4rem;
-    margin-right: 0;
-    padding-left: 3rem;
+  margin-top: 4rem;
+  margin-right: 0;
+  padding-left: 3rem;
 }
 
 .about-intro {
-    font-size: 1.5rem;
-    color: black;
+  font-size: 1.5rem;
+  color: black;
 }
 
 .about h3 {
-    font-size: 2.625rem;
-    color: #1652F0;
-    line-height: 4rem;
+  font-size: 2.625rem;
+  color: #1652f0;
+  line-height: 4rem;
 }
 
 .about-sub {
-    font-size: 1.125rem;
-    color: #333;
-    line-height: 2.5rem;
+  font-size: 1.125rem;
+  color: #333;
+  line-height: 2.5rem;
 }
 
 .about ul {
-    list-style: none;
+  list-style: none;
 }
 
 .about li {
-    margin-top: -1rem;
+  margin-top: -1rem;
 }
 
 .about-last-img {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .about ul li::before {
-    content: "\2022";  
-    color: #05B169; 
-    font-size: 2rem;
-    font-weight: bold; 
-    display: inline-block; 
-    width: 1em; 
-    margin: 0;
-    vertical-align: middle;
+  content: "\2022";
+  color: #05b169;
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin: 0;
+  vertical-align: middle;
 }
 
 .about a {
-    color: #333;
-    vertical-align: middle;
-    font-size: 1.125rem;
+  color: #333;
+  vertical-align: middle;
+  font-size: 1.125rem;
 }
 
 .about button {
-    background: #05B169;
+  background: #05b169;
+  padding: 1.3rem 5rem;
+}
+
+.core-partners h2 {
+  margin: 5rem 0 2rem 0;
+  font-size: 2.625rem;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .cover-row h1 {
+    font-size: 2.4rem;
+    color: black;
+    line-height: 3.5rem;
+  }
+
+  .cover-row p {
+    font-size: 1.3rem;
+    color: #333;
+    line-height: 2.3rem;
+  }
+
+  .about-intro {
+    font-size: 1.5rem;
+    color: black;
+  }
+
+  .about h3 {
+    font-size: 2rem;
+    color: #1652f0;
+    line-height: 2.5rem;
+  }
+
+  .about-sub {
+    font-size: 1.125rem;
+    color: #333;
+    line-height: 2rem;
+  }
+
+  .about ul {
+    list-style: none;
+  }
+
+  .about li {
+    margin-top: -1rem;
+  }
+
+  .about-last-img {
+    margin-top: 2rem;
+  }
+
+  .about ul li::before {
+    content: "\2022";
+    color: #05b169;
+    font-size: 2rem;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin: 0;
+    vertical-align: middle;
+  }
+
+  .about a {
+    color: #333;
+    vertical-align: middle;
+    font-size: 1.125rem;
+  }
+
+  .about button {
+    background: #05b169;
     padding: 1.3rem 5rem;
-}
-
-.core-partners h2{
-    margin: 5rem 0 2rem 0;
-    font-size: 2.625rem;
-}
-
-
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-    .cover-row h1 {
-        font-size: 2.4rem;
-        color: black;
-        line-height: 3.5rem;
-    }
-
-    .cover-row p {
-        font-size: 1.3rem;
-        color: #333;
-        line-height: 2.3rem;
-    }
-
-    .about-intro {
-        font-size: 1.5rem;
-        color: black;
-    }
-    
-    .about h3 {
-        font-size: 2rem;
-        color: #1652F0;
-        line-height: 2.5rem;
-    }
-    
-    .about-sub {
-        font-size: 1.125rem;
-        color: #333;
-        line-height: 2rem;
-    }
-    
-    .about ul {
-        list-style: none;
-    }
-    
-    .about li {
-        margin-top: -1rem;
-    }
-    
-    .about-last-img {
-        margin-top: 2rem;
-    }
-    
-    .about ul li::before {
-        content: "\2022";  
-        color: #05B169; 
-        font-size: 2rem;
-        font-weight: bold; 
-        display: inline-block; 
-        width: 1em; 
-        margin: 0;
-        vertical-align: middle;
-    }
-    
-    .about a {
-        color: #333;
-        vertical-align: middle;
-        font-size: 1.125rem;
-    }
-    
-    .about button {
-        background: #05B169;
-        padding: 1.3rem 5rem;
-    }
+  }
 }
 
 @media (max-width: 575.98px) {
-    .cover {
-        padding: 3rem 3rem 1.5rem 3rem;
-    }
+  .cover {
+    padding: 3rem 3rem 1.5rem 3rem;
+  }
 
-    .cover-row h1 {
-        font-size: 1.375rem;
-        color: black;
-        line-height: 156%;
-    }
+  .cover-row h1 {
+    font-size: 1.375rem;
+    color: black;
+    line-height: 156%;
+  }
 
-    .cover-row p {
-        font-size: 0.75rem;
-        color: #333;
-        line-height: 193%;
-    }
+  .cover-row p {
+    font-size: 0.75rem;
+    color: #333;
+    line-height: 193%;
+  }
 
-    .cover-row button {
-        background-color: #1652F0;
-        padding-right: 5.5rem;
-        padding-left: 5.5rem;
-        font-weight: bold;
-    }
+  .cover-row button {
+    background-color: #1652f0;
+    padding-right: 5.5rem;
+    padding-left: 5.5rem;
+    font-weight: bold;
+  }
 
-    .popular-row {
-        padding: 0 2rem;
-    }
+  .popular-row {
+    padding: 0 2rem;
+  }
 
-    .popular-card {
-        padding-top: 2.3rem;
-        padding-left: 1rem;
-        border-radius: 0rem;
-        border: 2px solid #1652F0;
-    }
+  .popular-card {
+    padding-top: 2.3rem;
+    padding-left: 1rem;
+    border-radius: 0rem;
+    border: 2px solid #1652f0;
+  }
 
-    .card-title {
-        font-size: 1.125rem !important;
-    }
+  .card-title {
+    font-size: 1.125rem !important;
+  }
 
-    .card-text {
-        font-size: 0.8125rem !important;
-        line-height: 180% !important;
-    }
+  .card-text {
+    font-size: 0.8125rem !important;
+    line-height: 180% !important;
+  }
 
-    .sun-img {
-        margin-left: 1rem;
-        height: 64px;
-        width: 64px;
-    }
+  .sun-img {
+    margin-left: 1rem;
+    height: 64px;
+    width: 64px;
+  }
 
-    .popular-courses p {
-        font-weight: 500;
-        font-size: 1rem;
-        margin-bottom: 0.3125rem;
-    }
-    
-    .popular-courses h2 {
-        font-weight: 600;
-        font-size: 1.5rem;
-        padding: 0 3rem;
-        line-height: 2.65rem;
-    }
+  .popular-courses p {
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 0.3125rem;
+  }
 
-    .find-more-btn {
-        margin-bottom: 1.8rem;
-    }
+  .popular-courses h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 0 3rem;
+    line-height: 2.65rem;
+  }
 
-    .most-popular p {
-        font-size: 1rem;
-    }
-    
-    .most-popular h2 {
-        font-size: 1.5rem;
-        padding: 0 6rem;
-        margin-bottom: 0.625rem;
-    }
+  .find-more-btn {
+    margin-bottom: 1.8rem;
+  }
 
-    .most-popular-row {
-        padding: 0 2rem;
-    }
+  .most-popular p {
+    font-size: 1rem;
+  }
 
-    .about {
-        margin-top: 0;
-        margin-right: 0;
-        padding-left: 0;
-    }
-    
-    .about-intro {
-        font-size: 0.875rem;
-        color: black;
-        margin-bottom: 0.5rem;
-    }
-    
-    .about h3 {
-        font-size: 1.375rem;
-        line-height: 2.0625rem;
-        padding: 0 1.5rem;
-    }
-    
-    .about-sub {
-        font-size: 0.875rem;
-        line-height: 190.05%;
-        padding: 0 1.5rem;
-    }
-    
-    .about ul {
-        list-style: none;
-        text-align: start;
-        margin-left: 3.7rem;
-    }
-    
-    .about a {
-        font-size: 0.875rem;
-    }
-    
-    .about button {
-        background: #05B169;
-        padding: 1rem 5.5rem;
-        border-radius: 0.5rem;
-        margin-top: -0.7rem;
-    }
+  .most-popular h2 {
+    font-size: 1.5rem;
+    padding: 0 6rem;
+    margin-bottom: 0.625rem;
+  }
 
-    .about-last-img {
-        width: 294px;
-        height: 291px;
-        margin-top: 1.4rem;
-    }
+  .most-popular-row {
+    padding: 0 2rem;
+  }
 
-    .core-partners h2{
-        margin: 2.7rem 0 1rem 0;
-        font-size: 1.125rem;
-    }
+  .about {
+    margin-top: 0;
+    margin-right: 0;
+    padding-left: 0;
+  }
+
+  .about-intro {
+    font-size: 0.875rem;
+    color: black;
+    margin-bottom: 0.5rem;
+  }
+
+  .about h3 {
+    font-size: 1.375rem;
+    line-height: 2.0625rem;
+    padding: 0 1.5rem;
+  }
+
+  .about-sub {
+    font-size: 0.875rem;
+    line-height: 190.05%;
+    padding: 0 1.5rem;
+  }
+
+  .about ul {
+    list-style: none;
+    text-align: start;
+    margin-left: 3.7rem;
+  }
+
+  .about a {
+    font-size: 0.875rem;
+  }
+
+  .about button {
+    background: #05b169;
+    padding: 1rem 5.5rem;
+    border-radius: 0.5rem;
+    margin-top: -0.7rem;
+  }
+
+  .about-last-img {
+    width: 294px;
+    height: 291px;
+    margin-top: 1.4rem;
+  }
+
+  .core-partners h2 {
+    margin: 2.7rem 0 1rem 0;
+    font-size: 1.125rem;
+  }
 }
