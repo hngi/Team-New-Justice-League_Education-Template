@@ -65,9 +65,6 @@ li {
 }
 
 @media screen and (min-width: 1200px) {
-.container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1500px !important;
-    }
 }
 
 @media screen and (max-width: 1456px){
