@@ -257,8 +257,8 @@ body{
 
     .search {
         position: absolute;
-        left: 25%;
-        transform: translate(-75%, -35%);
+        left: 20%;
+        transform: translate(-80%, -35%);
     }
 
     .search-input {
@@ -281,7 +281,7 @@ body{
     }
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 576px) {
     .smaller-logo {
         display: none;
     }
@@ -296,6 +296,9 @@ body{
     }
     .smaller-links {
         display: none;
+    }
+    .larger-links {
+        display: flex;
     }
 }
 
@@ -338,9 +341,6 @@ body{
         justify-content: space-around;
         font-size: 24px;
     }
-    .larger-links {
-        display: flex;
-    }
 
     .courses-header {
         font-size: 21px;
@@ -353,7 +353,7 @@ body{
     }
 
     .courses-text {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 24px;
     }
 
@@ -363,8 +363,34 @@ body{
     }
 }
 
+@media all and (min-width: 992px) {
+    .courses-text {
+        width: 240px;
+    }
+
+    .course-2 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
 @media all and (min-width: 1200px) {
+    .search {
+        position: absolute;
+        left: 36%;
+        transform: translate(-64%, -35%);
+    }
     .navbar-nav {
         margin-left: 300px;
+    }
+}
+
+@media all and (min-width: 1900px) {
+    .search {
+        position: absolute;
+        left: 40%;
+        transform: translate(-60%, -35%);
     }
 }
