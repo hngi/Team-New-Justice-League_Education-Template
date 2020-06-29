@@ -31,7 +31,7 @@ h6 {
 
 .first-container {
     height: 411px;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/file-20190423-175539-1de29q2.jpg') no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/Engineering\ 2.png') no-repeat;
     /* background-color: rgba(0, 0, 0, 0.51); */
     background-size: cover;
 }
@@ -206,7 +206,11 @@ img.photo-size {
 
 /* responsiveness */
 
-@media only screen and (max-width: 800px) {
+@media (max-width: 768px) {
+    .first-container {
+      height: 250px;
+    }
+
     .gren {
         margin-left: 40px;
     }
@@ -216,7 +220,6 @@ img.photo-size {
     .acada {
         display: flex;
         flex-direction: column;
-        margin: 50px;
         background: white;
         align-items: center;
         box-shadow: unset;
