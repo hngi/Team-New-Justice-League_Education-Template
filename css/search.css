@@ -1,0 +1,97 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, minmax(0, auto));
+}
+
+#wrapper header {
+    grid-row: 1/2;
+    grid-column: 1/13;
+}
+
+#wrapper #searched {
+    grid-row: 2/3;
+    grid-column: 3/11;
+    width: 100%;
+    margin-top: 2%;
+}
+
+#wrapper #searched form {
+    position: relative;
+}
+
+#wrapper #searched form input {
+    padding-left: 4%;
+}
+
+#wrapper #searched small {
+    position: absolute;
+    top: 30%;
+    left: 2%;
+}
+
+#wrapper #searched p {
+    margin-top: 10px;
+}
+
+#wrapper #results {
+    grid-row: 3/4;
+    grid-column: 1/12;
+    margin-left: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#wrapper #results #drop p {
+    display: inline-block;
+}
+
+#wrapper #results #drop select {
+    border: none;
+}
+
+#wrapper main {
+    grid-row: 4/5;
+    grid-column: 1/13;
+}
+
+#wrapper main div.foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+#wrapper main .text {
+    margin-top: 3%;
+}
+
+#wrapper main small {
+    color: blue;
+}
+
+#wrapper main .text p.nameUser {
+    color: blue;
+    margin-bottom: 2%;
+}
+
+#wrapper main .foot b {
+    font-weight: normal;
+    color: blue;
+}
+
+#wrapper #nextPage {
+    grid-row: 5/6;
+    grid-column: 1/13;
+    text-align: center;
+}
+
+#wrapper #nextPage ul {
+    display: inline-block;
+}
+
+#wrapper #nextPage li {
+    list-style-type: none;
+}
