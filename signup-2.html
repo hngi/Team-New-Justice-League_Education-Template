@@ -3,27 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <!-- Google Font -->
-       <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
-       <!-- Font Awesome -->
-       <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-   
-       <!-- Bootstrap CSS -->
-       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-   
-       <!-- Custom CSS -->
-       <link rel="stylesheet" href="css/header-footer.css">
-       <link rel="stylesheet" href="css/signup-2.css"> 
-    <title>Education</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+     <link rel="stylesheet" href="css/header-footer.css">
+     <link rel="stylesheet" href="css/signup-2.css">
+    <title>Document</title>
 </head>
 <body>
-<section class="container-fluid">
     <header class="bg-white">
         <nav class="navbar navbar-expand-lg navbar-dark py-2">
           <a class="navbar-brand" href="index.html">
-            <img src="/img/zuri-logo.png" width="95" alt="Education" class="img-fluid"> Zuri Logo
+            <img src="img/zuri-logo.png" width="95" alt="Education" class="img-fluid"> Zuri Logo
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -52,197 +42,45 @@
           </div>
         </nav>
       </header>
+      <section class="container-fluid bg">
+          <section class="row justify-content-center">
+              <section class="col-12 col-lg-8 col-sm-6 col-md-3">
+                <form class="form-container mt-5">
+                    <h3 class="text-center mt-4 mb-5">SIGN UP</h3>
+                    <div class="form-group ml-5 mr-5 mb-5">
+                        <input type="text" class="form-control" id="firstName" aria-describedby="firstName" placeholder="First name">
+                      </div>
 
-      <section class="content d-flex flex-column justify-content-center  bg" id=row>
-          <section  id="justify-content-center">
+                      <div class="form-group ml-5 mr-5 mb-5">
+                        <input type="text" class="form-control" id="lastName" aria-describedby="lastName" placeholder="Last name">
+                      </div>
 
-            <form class="form-container m-4">
-                <h2 class="text-center text-uppercase">Sign Up</h2>
-                    
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="First name">
+                    <div class="form-group ml-5 mr-5 mb-5">
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
                     </div>
-                    <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Last name">
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
-                </div>
-                <div class="form-group">
+                    <div class="form-group ml-5 mr-5 mb-5">
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                      <i class="txt-gray fa fa-eye-slash fa-eye"></i>
+                    </div>
 
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                  <i class="txt-gray fa fa-eye-slash fa-eye" id="eyeCon"></i>
-                </div>
-                <div class="form-group">
+                    <div class="form-group ml-5 mr-5 mb-5">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password">
+                        <i class="txt-gray fa fa-eye-slash fa-eye" id="eyeCon"></i>
+                      </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input ml-4" id="terms&condition">
+                      <label class="form-check-label ml-5" for="terms&condition">I agree to the <a href="#">terms & condition</a> and <a href="#">privacy policy</a> </label>
+                    </div>
+                    <button type="submit" class="btn btn-block mt-4 text-center">Submit</button>
 
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder=" Confirm Password">
-                    <i class="txt-gray fa fa-eye-slash fa-eye" id="eyeCon2"></i>
-                  </div>
-                <div class="form-group form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">I agree to the <a href="#">terms & conditions</a> and <a href="#">privacy policy</a></label>
-                </div>
-                <button type="submit" class="btn btn-primary btn-block">Submit</button>
-                <div class="form-group">
-
-                    <p class="member">Already a member? <a class="signin" href="#">sign in</a></p>
-                  </div>
-              </form>
-
+                    <p class="text-center mt-4">Already a member? <a href="#" class="signin">sign in</a></p>
+                  </form>
+              </section>
           </section>
+       
       </section>
+     
 
-    </section>
 
-<!-- Footer -->
-<!-- Footer -->
-<footer class="page-footer font-small">
-
-    <!-- Footer Links -->
-    <div class="container text-left text-md-left .col-sm-2">
-  
-      <!-- Grid row -->
-      <div class="row">
-  
-        <!-- Grid column -->
-        <div class="col m-2 mt-5 mx-auto">
-  
-          <!-- Content -->
-          <img src="/img/ZURI LOGO2.png" width="95" class="footer-logo mb-3" alt="Education">
-          <p class="text-white">Suri academy is the best way to start now Teach caree Path With The Best Set Of Instructions and Experts</p>
-              <!-- Social buttons -->
-    <ul class="list-unstyled list-inline pull-right">
-        <li class="list-inline-item">
-          <a class="btn-floating btn-fb mx-1">
-            <img src="/img/Facebook.png" alt="Facebook">
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-gplus mx-1">
-           <img src="/img/Youtube.png" alt="Youtube">
-          </a>
-        </li>
-        <li class="list-inline-item">
-            <a class="btn-floating btn-tw mx-1">
-              <img src="/img/Twitter.png" alt="Twitter">
-            </a>
-          </li>
-      
-      </ul>
-      <!-- Social buttons -->
-        
-  
-        </div>
-        <!-- Grid column -->
-  
-      
-  
-        <!-- Grid column -->
-        <div class="col-md-2 mx-auto">
-  
-          <!-- Links -->
-          <h6 class="font-weight-bold mt-5 mb-4 text-white">Collaborate</h6>
-  
-          <ul class="list-unstyled font-weight-normal">
-            <li>
-              <a href="#!">Our partners</a>
-            </li>
-            <li>
-              <a href="#!">Donate Now</a>
-            </li>
-            <li>
-              <a href="#!">Become an Instructor</a>
-            </li>
-            <li>
-              <a href="#!">Our Goals</a>
-            </li>
-          </ul>
-  
-        </div>
-        <!-- Grid column -->
-  
-      
-  
-        <!-- Grid column -->
-        <div class="col-md-2 mx-auto">
-  
-          <!-- Links -->
-          <h6 class="font-weight-bold mt-5 mb-4 text-white">Navigation</h6>
-  
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">About us</a>
-            </li>
-            <li>
-              <a href="#!">Courses</a>
-            </li>
-            <li>
-              <a href="#!">Blog</a>
-            </li>
-            <li>
-              <a href="#!">FAQ</a>
-            </li>
-            <li>
-                <a href="#!">Testimonials</a>
-              </li>
-          </ul>
-  
-        </div>
-        <!-- Grid column -->
-  
- 
-  
-        <!-- Grid column -->
-        <div class="col-md-2 mt-5 mx-auto">
-  
-          <!-- Links -->
-          <h6 class="font-weight-bold mb-4 text-white">Contact Us</h6>
-  
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">No. 10 Lekki Phase 1</a>
-            </li>
-            <li>
-              <a href="#!">Lagos, Nigeria</a>
-            </li>
-          </ul>
-          
-          <p class="text-white">+234 8160877 462</p>
-          <p class="text-white">info@suriacademy</p>
-        </div>
-      
-    
-        <!-- Grid column -->
-        <!-- <div class="col-md-2 mx-auto"> -->
-  
-            <!-- Links -->
-            <div class="col-12 col-lg-3">
-                <p class="head text-white mt-5">Newsletter</p>
-                <p class="text-white">Subscribe to our E-Newsletter to get latest deals on our courses.</p>
-                <div class="d-flex align-items-center"id="feedback">
-                   <input type="text" class="px-3 py-1 w-100 rounded-left" placeholder="Email address">
-                   <div class="bg-primary px-2 py-1 rounded-right"><img src="img/Vector 1.png" alt="mail"></div>
-               </div>
-          </div>
-    
-          <!-- </div> -->
-  
-      </div>
-      <!-- Grid row -->
-      <hr class="Copyright-hr">
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3 text-white">© Suri A, Inc. 2020. All rights reserved.
-  </div>
-
-</div>
-    <!-- Footer Links -->
-  
-
-  
-    <!-- Copyright -->
-  
-  </footer>
-  <!-- Footer -->
-    
 </body>
 </html>

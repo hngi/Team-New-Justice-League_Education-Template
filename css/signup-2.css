@@ -1,224 +1,86 @@
 
 .bg {
-    background-image: url(/img/Optimized-iStock-896458188_1.jpg);
-    background-repeat: no-repeat;
+    background-image: url(../img/Optimized-iStock-896458188_1.jpg);
     background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 20vh;
+    background-repeat: no-repeat;
 }
 
-
-#row {
-    font-family: Poppins;
-    width: 100%;
+.row {
     height: 150vh;
 }
 
 
 
-.form-container {
-    background-color: #E5E5E5;
-    padding: 30px;
-    width: 80%;
-    height: 70vh;
-    box-shadow: 0px 0px 1px 0px;
-}
-
-
-h2 {
-    font-size: 18px;
+.text-center {
     color: #333333;
 }
 
+.form-container {
+    background-color: #F9F8F8;
+    padding: 30px;
+    width: 100%;
+    box-shadow: 0px 0px 1px #000;
+}
 
 [type="text"],
 [type="password"],
 [type="email"] {
-    border: 0.3px solid #1652F0;
+    border: none;
     outline: none;
     font-size: .7rem;
-}
-.form-check-label {
-    font-size: 9.9291px;
+    padding: 1.5em;
 }
 
-.form-check-label a {
-    color: inherit;
+input:focus-within {
+    border: 1px solid #1652F0 !important;
 }
 
-#eyeCon, #eyeCon2 {
-    color: #555;
+.txt-gray{
+    position: absolute;
+    top: 31em;
+    right: 6.5em;
+    color:  #c0bbbb;
 }
 
 #eyeCon {
     position: absolute;
-    top: 87%;
-    left: 70%;
+    top: 37em;
+    right: 6.5em;
 }
 
-#eyeCon2 {
-    position: absolute;
-    top: 94%;
-    left: 70%;
+.form-check-label {
+    font-family: inherit;
+    font-size: 9.9291px;
 }
-
 
 .btn-block {
-    font-size: .7rem;
+    color: #fff;
     background: #05B169;
-    border-radius: 8px;
     margin: auto;
-    /* margin-top: 50em; */
-    width: 50%;
+    width: 30%;
     border: none;
 }
 
-[type="submit"] {
-    margin-top: 5em !important;
-}
-
-.btn-block:hover {
-    background-color: #333333;
-}
-
-p.member, a.signin{
-    text-align: center;
-    margin-top: 2em;
-    font-size: .8rem;
-}
-a.signin{
+a.signin {
     text-decoration: underline;
 }
-
-.page-footer {
-    background-color: #1652F0;
-    height: 170vh;
-}
-
-
-.footer-copyright {
-    margin-top: 28em;
-}
-
-.Copyright-hr {
-     background-color: #fff;
-}
-
-
 
 
 /* desktop screen size */
 @media only screen and (min-width: 768px) {
-    body {
-        background-image: url(/img/Optimized-iStock-896458188_1.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+    .form-check-label {
+        font-weight: 300;
+        font-size: 21px;
+        line-height: 31px;
+        margin-left: 4em !important;
     }
 
-  
-
-    .bg-white {
-    margin-left: -20px;
-    margin-right: -15px;
-}
-
-    .row {
-        margin: 0 auto;
-        height: 150vh;
+    [type="checkbox"] {
+        margin-top: .4em;
+        margin-left: 3em !important;
     }
 
-
-    #justify-content-center {
-        width: 100%;
-        margin: 0 auto;
-        margin-left: 17em;
-    }
-
-    #eyeCon {
-        position: absolute;
-        top: 44%;
-        left: 79%;
-    }
-    
-    #eyeCon2 {
-        position: absolute;
-        top: 52%;
-        left: 79%;
-    }
-
-    .form-container {
-        position: absolute;
-        top: 20vh;
-        padding-left: 8em;
-        padding-right: 8em;
-        height: 110vh;
-        width: 60%;
-    }
-
-    h2 {
-        padding-bottom: 30px;
-        font-size: 40px;
-    }
-
-
-    [type="text"],
-    [type="password"],
-    [type="email"] {
-        font-size: 1rem;
-        padding: 20px 10px;
-    }
-
-    .fa {
-        position: absolute;
-        top: 49vh;
-        left: 47vw;
-    }
-    
-    #eye2 {
-        position: absolute;
-        top: 58vh;
-        left: 47vw;
-    }
-
-.form-check-label {
-    font-size: 20px;
-}
-
-.form-check-label a {
-    color: #2c50c8;
-}
     .btn-block {
-        font-size: 1rem;
-        width: 142px;
+        width: 20%;
     }
-
-    p.member, a.signin{
-        font-size: 1rem;
-    }
-
-    .page-footer {
-        height: 150vh;
-    }
-
-
-    .mg-top {
-        margin-bottom: 35em;
-    }
-
-    .mg-b {
-        margin-bottom: 35em !important;
-    }
-
-    .Copyright-hr {
-        margin-top: -30em;
-        background-color: #fff;
-    }
-
-    .footer-copyright {
-        margin-top: 2em;
-    }
-
-   
 }
