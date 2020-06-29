@@ -362,10 +362,10 @@ button.navbar-link-button2 {
 
 .form-input-mobile {
   position: relative;
-  width: 375px;
+  width: 315px;
   height: 38px;
   left: 30px;
-  bottom: 25px;
+  bottom: 28px;
   background: #ffffff;
   border: 1px solid #1652f0;
   box-sizing: border-box;
@@ -377,14 +377,14 @@ button.navbar-link-button2 {
   color: #112d4e;
   font-size: 18px;
   position: relative;
-  bottom: 53.43px;
+  bottom: 55.43px;
   left: 43px;
 }
 
 .fa-times-circle-mobile {
   position: relative;
-  bottom: 54px;
-  margin-left: -547px;
+  bottom: 57px;
+  margin-left: -605px;
   font-family: "Quantico", sans-serif;
   font-style: normal;
   font-size: 20px;
@@ -422,7 +422,7 @@ button.navbar-link-button2 {
   font-size: 13px;
   line-height: 31px;
   position: relative;
-  left: 34px;
+  left: 28px;
 }
 
 #form-mobile .sort-mobile {
@@ -443,21 +443,21 @@ button.navbar-link-button2 {
   border: 0.75px solid #e0e0e0;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  height: 486px;
-  width: 370px;
+  height: 494px;
+  width: 325px;
   margin-top: 27px;
-  left: 50px;
+  left: 40px;
 }
 
 .card-1-mobile img {
   position: relative;
-  width: 369px;
+  width: 325px;
   height: 284px;
   right: 1px;
 }
 
 .card-text-mobile {
-  margin: 8px 40px 0 40px;
+  margin: 8px 38px 0 38px;
 }
 
 .card-1-mobile .card-text-p1-mobile {
@@ -518,22 +518,22 @@ button.navbar-link-button2 {
   margin-left: 7px;
 }
 
-.card-3 {
+.card-3-mobile {
   position: relative;
-  margin-left: 73.7%;
-  margin-top: -42.65%;
+  margin-left: 7.7%;
+  margin: 8% 0 1% 0;
 }
 
-#chevron {
-  height: 27vh;
+#chevron-mobile {
+  height: 23vh;
 }
 
-.chevron {
+.chevron-mobile {
   position: relative;
-  top: 80px;
-  height: 44.29px;
+  top: 45px;
+  height: 40.29px;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 37px;
   /* identical to box height */
   color: #000000;
@@ -550,7 +550,7 @@ button.navbar-link-button2 {
 }
 
 .fa-chevron-left {
-  margin-left: 42%;
+  margin-left: 23%;
 }
 
 .chevron span {
