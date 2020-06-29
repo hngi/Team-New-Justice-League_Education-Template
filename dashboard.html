@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/about.css">
+
+    <link rel="stylesheet" href="css/dashboards.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header class="bg-white">
+            <nav class="navbar navbar-expand-lg navbar-light py-3">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/Frame 6.png" width="150" alt="Education" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav d-flex align-items-center ml-auto">
+
+                        <li class="nav-item">
+                            <p><select name="" id="">
+                                    <option value="courses">Courses</option>
+                                </select></p>
+                        </li>
+                        <li class="nav-item">
+                            <p>
+                                <input class="form-control" type="text" placeholder="Search ">
+                            </p>
+                        </li>
+                        <li class="nav-item">
+                            <p>Feranmi Olowokekere</p>
+                        </li>
+                        <!-- <li class="nav-item active">
+                            <a class="nav-link current" href="faq.html">FAQ <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-btn btn btn-outline-success px-4" href="sign-in.html">Sign In</a>
+                        </li>
+                        <li class="nav-item nav-btn btn bg-primary">
+                            <a class="nav-link sign-up" href="sign-up.html">GET STARTED</a>
+                        </li> -->
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div id="welcome" class="my-3">
+            <h3>Welcome Back Feranmi</h3>
+            <button type="button" class="btn btn-outline-primary">Edit Profile</button>
+        </div>
+        <main>
+            <aside class="container">
+                <ul class="list-group ">
+                    <li class="list-group-item my-3">Home</li>
+                    <li class="list-group-item my-3">Courses</li>
+                    <li class="list-group-item my-3">Progress</li>
+                    <li class="list-group-item my-3">Completed</li>
+                    <li class="list-group-item my-3">Profile</li>
+                    <li class="list-group-item my-3">Tutors</li>
+                </ul>
+            </aside>
+            <div id="right">
+                <section id="overview" class="container  p-5 my-4">
+                    <p>Overview</p>
+                    <div>
+                        <div class="topProgress my-4">
+                            <div id="first">
+                                <p>Current Courses</p>
+                                <span>72%</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 72%;" aria-valuenow="22"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div id="second">
+                                <p>All Courses</p>
+                                <span>96%</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 96%;" aria-valuenow="22"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div id="third">
+                                <p>Test Courses</p>
+                                <span>22%</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 22%;" aria-valuenow="22"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="img" class="my-4">
+                            <img src="img/chart.svg" alt="" class="img-fluid my-3">
+                        </div>
+                    </div>
+                </section>
+                <section id="courses" class="container">
+                    <p>Running Courses</p>
+                    <div class="row row-cols-1 row-cols-md-3">
+                        <div class="col mb-4">
+                            <div class="card h-100">
+                                <img src="img/importance.png" width="369px" height="179px"
+                                    class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <h5>Advanced Excel</h5>
+
+                                    <div class="text">
+                                        <p>Using VBA Excel to Perform statistical analysis and simulations</p>
+                                    </div>
+
+                                    <div class="foot">
+                                        <p>Total time : 5hr 43 mins</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 92%;"
+                                                aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">92%</div>
+                                        </div>
+                                        <button type="button" class="btn btn-success my-4">Go to course</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100">
+                                <img src="img/chartperson.png" width="369px" height="179px"
+                                    class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <h5>Advanced Excel</h5>
+
+                                    <div class="text">
+                                        <p>Using VBA Excel to Perform statistical analysis and simulations</p>
+                                    </div>
+
+                                    <div class="foot">
+                                        <p>Total time : 5hr 43 mins</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 72%;"
+                                                aria-valuenow="72" aria-valuemin="0" aria-valuemax="100">72%</div>
+                                        </div>
+                                        <button type="button" class="btn btn-success my-4">Go to course</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100">
+                                <img src="img/origin 2.png" width="369px" height="179px" class="card-img-top img-fluid"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5>Advanced Excel</h5>
+
+                                    <div class="text">
+                                        <p>Using VBA Excel to Perform statistical analysis and simulations</p>
+                                    </div>
+
+                                    <div class="foot">
+                                        <p>Total time : 3hr 43 mins</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 22%;"
+                                                aria-valuenow="22" aria-valuemin="0" aria-valuemax="100">22%</div>
+                                        </div>
+                                        <button type="button" class="btn btn-success my-4">Go to course</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="activity" class="container">
+                    <p>Activity</p>
+                    <div id="grouped" class="list-group list-group-flush px-3">
+                        <div class="list-group-item summaryCourse">
+                            <div>
+                                <p>Python Basics</p>
+                                <small>Description of courses</small>
+                            </div>
+                            <div>
+                                <span>2 Min</span>
+                                <b>Test Completed</b>
+                            </div>
+                        </div>
+                        <div class="list-group-item summaryCourse my-4">
+                            <div>
+                                <p>Python Basics</p>
+                                <small>Description of courses</small>
+                            </div>
+                            <div>
+                                <span>2 Min</span>
+                                <b>Test Completed</b>
+                            </div>
+                        </div>
+                        <div class="list-group-item summaryCourse">
+                            <div>
+                                <p>Python Basics</p>
+                                <small>Description of courses</small>
+                            </div>
+                            <div>
+                                <span>5 Min</span>
+                                <b>Test Completed</b>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <footer class="mt-5">
+        <div class="row d-flex flex-column flex-lg-row">
+            <div class="col-12 col-lg-3 mb-5 mb-lg-0">
+                <img src="img/zuri logo2.png" alt="logo">
+                <p>Suri academy is the best way to start New Tech Career
+                    Path With The Best Set Of Instructors and Experts</p>
+                <div class="d-flex logo">
+                    <img src="img/Facebook.png" alt="fb">
+                    <img src="img/Youtube.png" alt="yt" class="mx-3">
+                    <img src="img/Twitter.png" alt="twt">
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 mb-5 mb-lg-0">
+                <div class="row">
+                    <div class="col-4">
+                        <p class="head">Collaborate</p>
+                        <a href="#">Our Partner</a>
+                        <a href="#">Donate Now</a>
+                        <a href="#">Become a partner</a>
+                        <a href="#">Our Goals</a>
+                    </div>
+                    <div class="col-4">
+                        <p class="head">Navigation</p>
+                        <a href="#">About us</a>
+                        <a href="#">Courses</a>
+                        <a href="#">Blog</a>
+                        <a href="#">FAQ</a>
+                    </div>
+                    <div class="col-4">
+                        <p class="head">Contact Us</p>
+                        <p>No 10, Lekki Phase 1 Lagos State, Nigeria.
+                            +234 816 0877 462 info@suriacademy</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <p class="head">Newsletter</p>
+                <p>Subscribe to our E-Newsletter to get latest deals on our courses.</p>
+                <div class="d-flex align-items-center" id="feedback">
+                    <input type="text" class="px-3 py-1 w-100 rounded-left" placeholder="Email address">
+                    <div class="bg-primary px-2 py-1 rounded-right"><img src="img/Vector 1.png" alt="mail"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+
+    <!-- Custom JS -->
+    <!-- Should you need to write a custom JS, it should be linked here -->
+
+</body>
+
+</html>
