@@ -25,10 +25,10 @@ body {
 }
 
 #wrapper #searched form input {
-    padding-left: 4%;
+    padding-left: 5%;
 }
 
-#wrapper #searched small {
+#wrapper #searched i {
     position: absolute;
     top: 30%;
     left: 2%;
@@ -94,4 +94,11 @@ body {
 
 #wrapper #nextPage li {
     list-style-type: none;
+    display: inline-block;
+
+}
+
+#wrapper footer {
+    grid-row: 6/7;
+    grid-column: 1/13;
 }
