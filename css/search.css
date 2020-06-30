@@ -28,9 +28,7 @@ body {
   top: 27px;
   bottom: 40px;
 }
-img.img-fluid {
-  max-width: 70%;
-}
+
 .navbar-link-home {
   right: 33%;
 }
@@ -280,20 +278,21 @@ button.navbar-link-button2 {
 /* MOBILE VIEW */
 
 #navbar-mobile {
-  height: 120px;
+  height: 100px;
 }
 
 .navbar-logo {
   position: relative;
   width: 99px;
   height: 32.41px;
-  left: 30px;
+  left: 38.5px;
   top: 12.96px;
 }
 
 #navbar-mobile button {
   position: relative;
   top: 10.83px;
+  right: 38.5px;
   border: none;
 }
 
@@ -364,10 +363,10 @@ button.navbar-link-button2 {
 
 .form-input-mobile {
   position: relative;
-  width: 375px;
-  height: 38px;
-  left: 30px;
-  bottom: 25px;
+  width: 262.5px;
+  height: 32px;
+  left: 35.5px;
+  bottom: 30px;
   background: #ffffff;
   border: 1px solid #1652f0;
   box-sizing: border-box;
@@ -377,19 +376,19 @@ button.navbar-link-button2 {
 .fa-search-mobile {
   fill: solid;
   color: #112d4e;
-  font-size: 18px;
+  font-size: 14.5px;
   position: relative;
-  bottom: 53.43px;
-  left: 43px;
+  bottom: 57.43px;
+  left: 43.5px;
 }
 
 .fa-times-circle-mobile {
   position: relative;
-  bottom: 54px;
-  margin-left: -547px;
+  bottom: 58px;
+  margin-left: -643.5px;
   font-family: "Quantico", sans-serif;
   font-style: normal;
-  font-size: 20px;
+  font-size: 14.5px;
   background-color: #a8a5a5;
   color: #ffffff;
   border: 0 solid #a8a5a5;
@@ -397,10 +396,10 @@ button.navbar-link-button2 {
 }
 
 .form-input-outter-mobile input[placeholder="Graphic Design"] {
-  padding-left: 40px;
+  padding-left: 30.5px;
   font-style: normal;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 32px;
   color: #050f19;
   fill: solid;
@@ -408,32 +407,34 @@ button.navbar-link-button2 {
 
 #form-mobile .search-result-mobile {
   font-weight: 500;
-  font-size: 13px;
+  font-size: 11px;
   line-height: 31px;
-  margin-left: 8%;
+  margin-left: 10.8%;
   position: relative;
-  bottom: 28px;
+  bottom: 32px;
 }
 
 #form-mobile .search-mobile {
-  margin-top: -33px;
+  margin-top: -34px;
 }
 
 #form-mobile .result-found-mobile {
   font-weight: 500;
-  font-size: 13px;
+  font-size: 11px;
   line-height: 31px;
   position: relative;
-  left: 34px;
+  left: 38.5px;
+  bottom: 5px;
 }
 
 #form-mobile .sort-mobile {
   font-weight: 500;
-  font-size: 13px;
+  font-size: 11px;
   line-height: 31px;
   position: relative;
   float: right;
   border: none;
+  right: 43.5px;
 }
 
 /* #cards {
@@ -445,28 +446,28 @@ button.navbar-link-button2 {
   border: 0.75px solid #e0e0e0;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  height: 486px;
-  width: 370px;
-  margin-top: 27px;
-  left: 50px;
+  height: 494px;
+  width: 270px;
+  margin-top: 15px;
+  left: 53.5px;
 }
 
 .card-1-mobile img {
   position: relative;
-  width: 369px;
+  width: 270px;
   height: 284px;
   right: 1px;
 }
 
 .card-text-mobile {
-  margin: 8px 40px 0 40px;
+  margin: 8px 24px 0 30px;
 }
 
 .card-1-mobile .card-text-p1-mobile {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 13px;
   line-height: 30px;
   color: #050f19;
 }
@@ -474,13 +475,13 @@ button.navbar-link-button2 {
 .card-text-inner-mobile {
   color: #1652f0;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 11.5px;
   line-height: 18px;
 }
 
 .card-1-mobile .card-text-p2-mobile {
   font-weight: 600;
-  font-size: 11px;
+  font-size: 10.5px;
   line-height: 200%;
   margin-top: -12px;
   margin-bottom: 1.5px;
@@ -489,7 +490,7 @@ button.navbar-link-button2 {
 }
 
 .card-1-mobile .card-text-p3-mobile {
-  font-size: 11.5px;
+  font-size: 10.5px;
   line-height: 200%;
   /* or 28px */
   margin-bottom: 7px;
@@ -498,44 +499,46 @@ button.navbar-link-button2 {
 
 .fa-star {
   color: #ffcf40;
-  font-size: 11px;
+  font-size: 10px;
   border-radius: 0.5px;
 }
 
 .fa-arrow-right-mobile {
   float: right;
   font-weight: 500;
-  font-size: 11px;
+  font-size: 10px;
   line-height: 200%;
   /* identical to box height, or 28px */
   color: #1652f0;
+  position: relative;
+  top: 5px;
 }
 
 .card-text-inner-i-mobile {
   font-weight: 500;
-  font-size: 11px;
+  font-size: 10px;
   line-height: 200%;
   /* identical to box height, or 28px */
   color: #1652f0;
   margin-left: 7px;
 }
 
-.card-3 {
+.card-3-mobile {
   position: relative;
-  margin-left: 73.7%;
-  margin-top: -42.65%;
+  margin-left: 7.7%;
+  margin: 4.7% 0 .4% 0;
 }
 
-#chevron {
-  height: 27vh;
+#chevron-mobile {
+  height: 23vh;
 }
 
-.chevron {
+.chevron-mobile {
   position: relative;
-  top: 80px;
-  height: 44.29px;
+  top: 45px;
+  height: 40.29px;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 37px;
   /* identical to box height */
   color: #000000;
@@ -552,7 +555,7 @@ button.navbar-link-button2 {
 }
 
 .fa-chevron-left {
-  margin-left: 42%;
+  margin-left: 23%;
 }
 
 .chevron span {
