@@ -19,6 +19,51 @@ body {
   top: 13px;
 }
 
+.underline-home {
+  position: relative;
+  width: 51px;
+  height: 5px;
+  border: 2px solid #05b169;
+  border-radius: 3px;
+  background-color: #05b169;
+}
+/* 
+.underline-courses {
+  position: relative;
+  width: 67px;
+  height: 5px;
+  border: 2px solid #05b169;
+  border-radius: 3px;
+  background-color: #05b169;
+}
+
+.underline-about {
+  position: relative;
+  width: 73px;
+  height: 5px;
+  border: 2px solid #05b169;
+  border-radius: 3px;
+  background-color: #05b169;
+}
+
+.underline-faq {
+  position: relative;
+  width: 34px;
+  height: 5px;
+  border: 2px solid #05b169;
+  border-radius: 3px;
+  background-color: #05b169;
+}
+
+.underline-contact {
+  position: relative;
+  width: 67px;
+  height: 5px;
+  border: 2px solid #05b169;
+  border-radius: 3px;
+  background-color: #05b169;
+} */
+
 .navbar-link a {
   position: relative;
   color: #333333;
@@ -526,7 +571,7 @@ button.navbar-link-button2 {
 .card-3-mobile {
   position: relative;
   margin-left: 7.7%;
-  margin: 4.7% 0 .4% 0;
+  margin: 4.7% 0 0.4% 0;
 }
 
 #chevron-mobile {
