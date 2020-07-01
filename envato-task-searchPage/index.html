@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>search page</title>
+  <link rel="stylesheet" href="./searchPagecss/styles.css">
+
+
+  <link rel="stylesheet" href="./searchPagecss/mobile.css">
+  <link rel="stylesheet" href="./searchPagecss/tablet.css">
+  <link rel="stylesheet" href="./searchPagecss/desktop.css">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/52f2afaff9.js" crossorigin="anonymous"></script>
+  <!--end of font awesome  -->
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  <!-- end of google fonts -->
+</head>
+
+<body>
+  <!-- main container -->
+  <section class="container">
+    <!-- nav-bar -->
+    <nav class="nav-bar">
+      <div class="nav-bar-center">
+        <a href="#hero">
+          <img src="./img/zuri-logo.png" alt="zuri academy logo" class="logo">
+        </a>
+        <!-- <div> -->
+          <ul class="navigation">
+            <li class="nav-links" data-link=""><a href="#">Home</a></li>
+            <li class="nav-links" data-link=""><a href="#courses">Courses</a></li>
+            <li class="nav-links" data-link=""><a href="#">About Us</a></li>
+            <li class="nav-links" data-link=""><a href="#footer">FAQ</a></li>
+            <li class="nav-links" data-link=""><a href="#footer">Contact us</a></li>
+            <li class="link-btn" data-link=""><a class="nav-btn desktop-nav-btn" id="sign-in" href="#">Sign In</a></li>
+            <li class="link-btn" data-link=""><a class="nav-btn desktop-nav-btn" href="#">Get Started</a></li>
+          </ul>
+        <!-- </div> -->
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav-bar -->
+    <!-- ============================= -->
+    <!-- begining of seach input-->
+    <section class="search-form-container">
+      <h1>Search for Courses</h1>
+      <form class="search-form">
+        <div class="search">
+          <i class="fa fa-search icon" aria-hidden="true"></i>
+          <input type="text" class="search-input" placeholder="Web Development">
+          <i class="fa fa-times-circle" aria-hidden="true"></i>
+        </div>
+        <button class="search-btn btn">Search</button>
+        <div class="search-results-prompt">
+          <p>Search Results For Graphic Design</p>
+        </div>
+      </form>
+    </section>
+    <!-- end of search input -->
+    <!-- ============================ -->
+    <!-- search results section -->
+    <section class="search-result-container">
+        <h2>Search Results</h2>
+        <!-- courses section -->
+        <section id="courses" class="courses">
+          <div class="results-text-and-sort-container">
+            <div class="results">
+              <p class="result-text">25 Results found</p>
+            </div>
+            <div class="sort-container">
+              <p>Sort by:<span class="sort-parameter">Popularity</span> <i class="fa fa-chevron-down"
+                  aria-hidden="true"></i></p>
+            </div>
+          </div>
+          <div class="course-grid-container">
+            <!-- individual course -->
+            <div class="course-holder">
+              <img src="./img/img-for-searchPage/" alt="">
+              <img src="./img/img-for-searchPage/image1.jpg" alt="image of high tech computers in a room on a table"
+                class="image-of-course">
+              <div class="course-description">
+                <h2 class="course-title">Introduction to Graphics Design <span class="amount-of-lessons">7 Lessons</span>
+                </h2>
+                <h3 class="course-author">Satoshi hinamoto</h3>
+                <p class="course-text">Learn how to create filters for instagram and facebook in Spark AR Studio</p>
+              </div>
+              <!-- stars -->
+              <div class="ratings-learn-more-container">
+                <div class="ratings-container">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="learn-more-container">
+                  <p class="learn-more">
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>Learn More</p>
+                </div>
+              </div>
+            </div>
+            <!-- end of individual course -->
+            <!-- ==================== -->
+            <!-- individual course -->
+            <div class="course-holder">
+
+              <img src="./img/img-for-searchPage/image2.jpg" alt="image of high tech computers in a room on a table"
+                class="image-of-course">
+              <div class="course-description">
+                <h2 class="course-title">Advance Diploma in Graphics Design <span class="amount-of-lessons"> 7
+                    Lessons</span></h2>
+                <h3 class="course-author">Satoshi hinamoto</h3>
+                <p class="course-text">Learn how to create filters for instagram and facebook in Spark AR Studio</p>
+              </div>
+              <!-- stars -->
+              <div class="ratings-learn-more-container">
+                <div class="ratings-container">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="learn-more-container">
+                  <p class="learn-more">
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>Learn More</p>
+                </div>
+              </div>
+            </div>
+            <!-- end of individual course -->
+            <!-- ==================== -->
+            <!-- individual course -->
+            <div class="course-holder">
+
+              <img src="./img/img-for-searchPage/image4.jpg" alt="image of high tech computers in a room on a table"
+                class="image-of-course">
+              <div class="course-description">
+                <h2 class="course-title">The Complete Graphic Design Theory for Beginers <br><span
+                    class="amount-of-lessons"> 7 Lessons</span></h2>
+                <h3 class="course-author">Ifeanyi Okwuobi</h3>
+                <p class="course-text">Learn how to create filters for instagram and facebook in Spark AR Studio</p>
+              </div>
+              <!-- stars -->
+              <div class="ratings-learn-more-container">
+                <div class="ratings-container">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="learn-more-container">
+                  <p class="learn-more">
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>Learn More</p>
+                </div>
+              </div>
+            </div>
+            <!-- end of individual course -->
+            <!-- ==================== -->
+            <!-- individual course -->
+            <div class="course-holder">
+
+              <img src="./img/img-for-searchPage/image3.jpg" alt="image of high tech computers in a room on a table"
+                class="image-of-course">
+              <div class="course-description">
+                <h2 class="course-title">Masters in Graphic Desing<span class="amount-of-lessons">7 Lessons</span></h2>
+                <h3 class="course-author">Adamu Aliyu</h3>
+                <p class="course-text">Learn how to create filters for instagram and facebook in Spark AR Studio</p>
+              </div>
+              <!-- stars -->
+              <div class="ratings-learn-more-container">
+                <div class="ratings-container">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="learn-more-container">
+                  <p class="learn-more">
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>Learn More</p>
+                </div>
+              </div>
+            </div>
+            <!-- end of individual course -->
+            <!-- ==================== -->
+            <!-- individual course -->
+            <div class="course-holder">
+
+              <img src="./img/img-for-searchPage/image5.jpg" alt="image of high tech computers in a room on a table"
+                class="image-of-course">
+              <div class="course-description">
+                <h2 class="course-title">Introduction to Graphics Design <span class="amount-of-lessons"> 7 Lessons</span>
+                </h2>
+                <h3 class="course-author">Jon Duckett</h3>
+                <p class="course-text">Learn how to create filters for instagram and facebook in Spark AR Studio</p>
+              </div>
+              <!-- stars -->
+              <div class="ratings-learn-more-container">
+                <div class="ratings-container">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="learn-more-container">
+                  <p class="learn-more">
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>Learn More</p>
+                </div>
+              </div>
+            </div>
+            <!-- end of individual course -->
+            <!-- ==================== -->
+            <!-- individual course -->
+            <div class="course-holder">
+
+              <img src="./img/img-for-searchPage/image2.jpg" alt="image of high tech computers in a room on a table"
+                class="image-of-course">
+              <div class="course-description">
+                <h2 class="course-title">Introduction to Graphics Design <span class="amount-of-lessons">7 Lessons</span>
+                </h2>
+                <h3 class="course-author">Sam Aladyce</h3>
+                <p class="course-text">Learn how to create filters for instagram and facebook in Spark AR Studio</p>
+              </div>
+              <!-- stars -->
+              <div class="ratings-learn-more-container">
+                <div class="ratings-container">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="learn-more-container">
+                  <p class="learn-more">
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>Learn More</p>
+                </div>
+              </div>
+            </div>
+            <!-- end of individual course -->
+            <!-- ==================== -->
+            <!-- individual course -->
+            <div class="course-holder">
+
+              <img src="./img/img-for-searchPage/image3.jpg" alt="image of high tech computers in a room on a table"
+                class="image-of-course">
+              <div class="course-description">
+                <h2 class="course-title">Introduction to Graphics Design <span class="amount-of-lessons">7 Lessons</span>
+                </h2>
+                <h3 class="course-author">Ceasar Augustus</h3>
+                <p class="course-text">Learn how to create filters for instagram and facebook in Spark AR Studio</p>
+              </div>
+              <!-- stars -->
+              <div class="ratings-learn-more-container">
+                <div class="ratings-container">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="learn-more-container">
+                  <p class="learn-more">
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>Learn More</p>
+                </div>
+              </div>
+            </div>
+            <!-- end of individual course -->
+            <!-- ==================== -->
+            <!-- individual course -->
+            <div class="course-holder">
+
+              <img src="./img/img-for-searchPage/image1.jpg" alt="image of high tech computers in a room on a table"
+                class="image-of-course">
+              <div class="course-description">
+                <h2 class="course-title">Introduction to Graphics Design <span class="amount-of-lessons">7 Lessons</span>
+                </h2>
+                <h3 class="course-author">Jonny Cage</h3>
+                <p class="course-text">Learn how to create filters for instagram and facebook in Spark AR Studio</p>
+              </div>
+              <!-- stars -->
+              <div class="ratings-learn-more-container">
+                <div class="ratings-container">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="learn-more-container">
+                  <p class="learn-more">
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>Learn More</p>
+                </div>
+              </div>
+            </div>
+            <!-- end of individual course -->
+            <!-- ==================== -->
+            <!-- individual course -->
+            <div class="course-holder">
+
+              <img src="./img/img-for-searchPage/image1.jpg" alt="image of high tech computers in a room on a table"
+                class="image-of-course">
+              <div class="course-description">
+                <h2 class="course-title">Introduction to Graphics Design <span class="amount-of-lessons">7 Lessons</span>
+                </h2>
+                <h3 class="course-author">Jonny Cage</h3>
+                <p class="course-text">Learn how to create filters for instagram and facebook in Spark AR Studio</p>
+              </div>
+              <!-- stars -->
+              <div class="ratings-learn-more-container">
+                <div class="ratings-container">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="learn-more-container">
+                  <p class="learn-more">
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>Learn More</p>
+                </div>
+              </div>
+            </div>
+            <!-- end of individual course -->
+            <!-- ==================== -->
+
+          </div>
+          <div class="page-scroller">
+            <p>
+              <i class="fa fa-chevron-left icon-scroller" aria-hidden="true"></i>
+              Page 1
+              <i class="fa fa-chevron-right icon icon-scroller" aria-hidden="true"></i>
+            </p>
+          </div>
+        </section>
+        <!-- end of courses section -->
+    </section>
+      <!-- end of search results section -->
+<!-- ============================================ -->
+      <!-- footer section -->
+      <footer class="footer" id="footer">
+        <h2>Important Links</h2>
+        <div class="footer-grid">
+          <div class="logo-and-mission-container footer-container">
+            <div class="logo-container">
+              <img src="./img/zuri-logo.png" alt="logo in footer" class="logo-in-footer">
+            </div>
+
+            <p class="mission-statement">
+              Suri academy is the best way to start a Tech Career, with a Job Guaranty on graduation
+            </p>
+            <div class="social-icon-links-container">
+              <img src="./img/img-for-searchPage/facebook.png" alt="facebook icon for social media " class="social-icons">
+              <img src="./img/img-for-searchPage/youtube.png" alt="youtube icon for social media " class="social-icons">
+              <img src="./img/img-for-searchPage/twitter.png" alt="twitter icon for social media " class="social-icons">
+              <!-- <i class="fa fa-facebook-official social-icon" aria-hidden="true"></i>
+              <i class="fa fa-youtube-square social-icon" aria-hidden="true"></i>
+              <i class="fa fa-twitter-square social-icon" aria-hidden="true"></i> -->
+            </div>
+          </div>
+          <div class="collaborate-container footer-container">
+            <h3 class="footer-container-title">Collaborate</h3>
+            <ul class="footer-lists">
+              <li><a href="#">Our Partners</a></li>
+              <li><a href="#">Donate Now</a></li>
+              <li><a href="#">Become an Instructor</a></li>
+              <li><a href="#">Our Goals</a></li>
+            </ul>
+          </div>
+          <div class="navigation-container footer-container">
+            <h3 class="footer-container-title">Navigation</h3>
+            <ul class="footer-lists">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Courses</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Testimonials</a></li>
+            </ul>
+          </div>
+          <div class="contact-us-container footer-container">
+            <h3 class="footer-container-title">Contact Us</h3>
+            <div class="footer-lists">
+              <p>
+                No 10, Lekki Phase 1 Lagos,Nigeria.
+                Tel:+234 816 0877 462
+              </p>
+              <a href="#">info@suriacademy.com</a>
+            </div>
+          </div>
+          <div class="collaborate-container footer-container">
+            <h3 class="footer-container-title">Collaborate</h3>
+            <ul class="footer-lists">
+              <li><a href="#">Our Partners</a></li>
+              <li><a href="#">Donate Now</a></li>
+              <li><a href="#">Become an Instructor</a></li>
+              <li><a href="#">Our Goals</a></li>
+            </ul>
+          </div>
+          <div class="newsletter-container footer-container">
+            <h3 class="footer-container-title">Newsletter</h3>
+            <p class="footer-newsletter-text">
+              Subscribe to our E-Newsletter to get the latest deals on our courses.
+            </p>
+            <form class="newsletter-form">
+              <div class="newsletter">
+                <i class="fa fa-arrow-right right-arrow-in-footer" aria-hidden="true"></i>
+                <!-- <img src="./img/paper-plane.png" alt="" class="right-arrow-in-footer"> -->
+                <input type="text" class="newletter-input" placeholder="Your Email Address">
+
+              </div>
+            </form>
+          </div>
+
+        </div>
+        <hr class="horizontal-line-footer">
+        <div class="copyright">
+          <p class="copyright-text">
+            &copy; suriacademy,Inc,2020.All rights reserved.</p>
+        </div>
+      </footer>
+      <!-- end of footer section -->
+      <!-- ============================ -->
+  </section>
+  <script src="./searchPageResponsiveNav.js"></script>
+</body>
+
+</html>
