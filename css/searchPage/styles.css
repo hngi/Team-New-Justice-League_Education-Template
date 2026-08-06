@@ -1,0 +1,42 @@
+/* default browser styles reset */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+/* styles base variables */
+:root{
+--mainOrange:#f15512;
+--mainGreen:#05B169;
+--mainWhite:#fff;
+--mainBlack:#2C2C2C;
+--mainGrey:#ececec;
+--mainBlue:#1652F0;
+--mainTransition:all 0.3s linear;
+--mainSpacing:0.1rem;
+--mainYellow:#ffcf40;
+}
+/* to ensure that the document scrolls smoothly */
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  /* width: 1366px; */
+  max-width: calc(100% - 20px);
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.social-icons{
+  width:35px;
+}
+.right-arrow-in-footer{
+  width:50px;
+
+}
+
+
+
+
